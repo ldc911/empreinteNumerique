@@ -1,12 +1,14 @@
+
+section.expressionPlayerAudio > h2 {
+    font-family: var(--titeFont) ;
+}
+
 div.expressionPlayerAudio{
     display : flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
-div.expressionPlayerAudio > figure {
 
-
-}
 
 /* .playerComment{
     display: flex;
