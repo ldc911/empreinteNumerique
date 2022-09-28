@@ -1,3 +1,12 @@
-header {
-    background-image: src;
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 300px auto 50px;
 }
+
+header {
+    background-image: url("decoPictures/header.jpg");
+    background-repeat: no-repeat;
+}
+
+header nav {}
