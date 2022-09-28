@@ -14,12 +14,6 @@ header {
 
 } */
 
-header nav div {
-    margin-top: 2rem;
-    margin-left: 2rem;
-
-}
-
 .headerNavLign {
     width: 3rem;
     border-bottom: 1px solid white;
@@ -29,6 +23,33 @@ header nav div {
     transition-duration: 2s;
 }
 
-.headerNavLign:hover {
-    width: 85vh;
+.headerNavLignMin {
+    width: 3rem;
+}
+
+.headerNavLignMax {
+    width: 89vh;
+}
+
+#headerNav {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url("decoPictures/clef.png");
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: 0px 6.5px;
+}
+
+#headerNavName {
+    width: 89vh;
+    display: flex;
+}
+
+#headerNavName div {
+    width: 100px;
+    height: 50px;
+    color: white;
+
 }
