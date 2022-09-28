@@ -9,3 +9,13 @@
     --contentFont: Verdana, Optima, sans-serif;
 
 }
+
+/* a supprimer avant le merge */
+body {
+    font-family: var(--contentFont);
+}
+
+/* a supprimer avant le merge */
+section {
+    height: 100px;
+}
