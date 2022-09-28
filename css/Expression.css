@@ -1,4 +1,14 @@
-section .ExpressionLecteurAudio{
+div.expressionPlayerAudio{
     display : flex;
-    justify-content : space-around;
+    flex-direction: column;
+    align-content: center;
 }
+div.expressionPlayerAudio > figure {
+
+
+}
+
+/* .playerComment{
+    display: flex;
+    justify-content: center;
+} */
