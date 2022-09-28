@@ -9,26 +9,27 @@ header {
     background-repeat: no-repeat;
 }
 
-/* header nav img {
-    width: 40px;
-
-} */
-
 .headerNavLign {
     width: 3rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--secondaryColor);
     margin: 0px;
     margin-bottom: 7px;
     transition-property: width;
     transition-duration: 2s;
 }
 
-.headerNavLignMin {
-    width: 3rem;
+.headerNavLignMax {
+    width: 95%;
 }
 
-.headerNavLignMax {
-    width: 89vh;
+.navItem {
+    opacity: 0;
+}
+
+.navItemApparition {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 4s;
 }
 
 #headerNav {
@@ -43,13 +44,17 @@ header {
 }
 
 #headerNavName {
-    width: 89vh;
+    width: 90%;
     display: flex;
+    position: absolute;
+    justify-content: flex-end;
 }
 
 #headerNavName div {
-    width: 100px;
-    height: 50px;
-    color: white;
-
+    padding-right: 1.5rem;
+    padding-top: 7px;
+    color: var(--secondaryColor);
+    font-family: var(--titleFont);
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
