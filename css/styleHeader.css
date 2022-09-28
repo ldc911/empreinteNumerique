@@ -9,4 +9,26 @@ header {
     background-repeat: no-repeat;
 }
 
-header nav {}
+/* header nav img {
+    width: 40px;
+
+} */
+
+header nav div {
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.headerNavLign {
+    width: 3rem;
+    border-bottom: 1px solid white;
+    margin: 0px;
+    margin-bottom: 7px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.headerNavLign:hover {
+    width: 85vh;
+}
