@@ -1,4 +1,4 @@
-/* VERSION MOBILE < 321px */
+/* VERSION MOBILE < 768px */
 
 body {
     margin: 0px;
@@ -70,7 +70,7 @@ header a {
 
 
 /* VERSION DESKTOP à partir de 321px */
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 769px) {
 
     header a {
         color: var(--secondaryColor);
