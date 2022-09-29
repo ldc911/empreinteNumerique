@@ -1,5 +1,5 @@
 
- .expressionPlayerAudio > h2 {
+ .expression  h2 {
     font-family: var(--titeFont) ;
     color: var(--primaryColor);
 }
