@@ -123,7 +123,7 @@ body {
 
 .commentBoxFooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: var(--primaryColor);
     font-family: var(--contentFont);
     margin-left: 1rem;

@@ -98,9 +98,9 @@ function createCommentBox(title, note, content, nom, mail) {
     footerContentA.innerHTML = nom;
     commentBoxFooter.appendChild(footerContentA);
 
-    const footerContentB = document.createElement("div");
-    footerContentB.innerHTML = mail;
-    commentBoxFooter.appendChild(footerContentB);
+    // const footerContentB = document.createElement("div");
+    // footerContentB.innerHTML = mail;
+    // commentBoxFooter.appendChild(footerContentB);
 }
 
 formButton.addEventListener("click", function (event) {
