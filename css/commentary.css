@@ -1,0 +1,131 @@
+:root {
+
+    --primaryColor: rgb(43, 43, 43);
+
+    --secondaryColor: #fffaed;
+
+    --titeFont: Apple Chancery, Cursive;
+
+    --contentFont: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+
+.blocStar {
+    display: flex;
+}
+
+.emptyStar {
+    background-image: url(assets/empty_star.png);
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.fullStar {
+    background-image: url(assets/star_full.png);
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.formContainers {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: 80vw;
+}
+
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLabel {
+    color: var(--primaryColor);
+    font-family: var(--contentFont);
+    text-shadow: 1px 2px 2px darkgray;
+}
+
+.formChamp {
+    line-height: 1.25rem;
+}
+
+.formContainer {
+    border-radius: 0.35rem;
+    border-width: 1px;
+    border-color: var(--primaryColor);
+    margin-bottom: 1rem;
+    width: 80vw;
+    min-width: 200px;
+    box-shadow: 2px 2px 4px darkgrey;
+}
+
+.formButton {
+    border: 1px solid #616161;
+    width: 10rem;
+    line-height: 1.5;
+    padding: 0 20px;
+    border-radius: 0.35rem;
+    text-align: center;
+    color: var(--primaryColor);
+    font-family: var(--contentFont);
+    box-shadow: 2px 2px 4px darkgrey;
+
+}
+
+.commentBoxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.commentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 300px;
+    height: 100px;
+    border-radius: 0.45rem;
+    border-bottom-left-radius: 1.5em;
+    border-top-right-radius: 1.5rem;
+    background-color: rgb(244, 252, 253);
+    box-shadow: 1px 3px 4px darkgray;
+}
+
+.commentBoxHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentBoxHeaderContent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: var(--primaryColor);
+    font-family: var(--contentFont);
+    text-shadow: 1.5px 0px 2px darkgray;
+
+}
+
+.commentBoxContent {
+    text-align: center;
+    color: var(--primaryColor);
+    font-family: var(--contentFont);
+}
+
+.commentBoxFooter {
+    display: flex;
+    justify-content: space-between;
+    color: var(--primaryColor);
+    font-family: var(--contentFont);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
