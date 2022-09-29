@@ -26,7 +26,7 @@ header a {
     /* box-shadow: 0 0 7px 4px black; */
 }
 
-#headerNav {
+#headerNavMobile {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     padding-top: 3rem;
@@ -34,6 +34,10 @@ header a {
     background-repeat: no-repeat;
     background-size: 35px;
     background-position: 0px 6.5px;
+}
+
+#headerNavDesk {
+    display: none;
 }
 
 .navItem {
@@ -92,12 +96,19 @@ header a {
         /* box-shadow: 0 0 7px 4px black; */
     }
 
-    #headerNav {
+    #headerNavMobile {
+        display: none;
+    }
+
+    #headerNavDesk {
+        display: block;
         margin-top: 1rem;
         margin-left: 2rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         background-size: 58px;
+        background-image: url(decoPictures/cle2.png);
+        background-repeat: no-repeat;
     }
 
     #headerNavName {
@@ -124,6 +135,7 @@ header nav {
     transition-property: display;
     transition-duration: 1s;
     transition-delay: 1s;
+    display: none;
 }
 
 header nav ul {
@@ -137,10 +149,6 @@ header nav li {
     margin-top: 1rem;
     color: white;
     font-size: 0.9rem;
-}
-
-.disparu {
-    display: none;
 }
 
 .apparu {

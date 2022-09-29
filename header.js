@@ -1,4 +1,13 @@
-const headerNav = document.querySelector("#headerNav");
+// APPARITION DU MENU AU FORMAT MOBILE
+const nav = document.querySelector("#headerNavMobile");
+const menu = document.querySelector("nav");
+const body = document.querySelector("body");
+nav.addEventListener('click', function () {
+    menu.classList.toggle("apparu");
+});
+
+//APPARITION DU MENU AU FORMAT DESKTOP
+const headerNav = document.querySelector("#headerNavDesk");
 const headerNavLign = document.querySelectorAll(".headerNavLign");
 const navItem = document.querySelectorAll(".navItem");
 
@@ -12,10 +21,4 @@ headerNav.addEventListener('click', function () {
     }
 });
 
-const nav = document.querySelector("#headerNav");
-const menu = document.querySelector("nav");
-const main = document.querySelector("main");
-nav.addEventListener('click', function () {
-    menu.classList.toggle("apparu");
-    main.style.filter = "alpha(opacity =60)"
-});
+
