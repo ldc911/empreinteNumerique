@@ -1,11 +1,4 @@
 /* VERSION MOBILE < 768px */
-
-body {
-    margin: 0px;
-    display: grid;
-    grid-template-rows: 300px auto 50px;
-}
-
 header {
     background-image: url("decoPictures/header.jpg");
     background-repeat: no-repeat;
@@ -71,6 +64,7 @@ header a {
 
 /* VERSION DESKTOP à partir de 769px */
 @media screen and (min-width: 769px) {
+
 
     header a {
         color: var(--secondaryColor);
