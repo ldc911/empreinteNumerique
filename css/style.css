@@ -19,7 +19,8 @@ body {
 }
 
 main {
-    background-color: grey;
+    background-image: url("decoPictures/bg.jpg");
+    background-size: contain;
 
 }
 
