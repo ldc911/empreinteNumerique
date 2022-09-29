@@ -10,12 +10,8 @@
 
 }
 
-/* a supprimer avant le merge */
 body {
-    font-family: var(--contentFont);
-}
-
-/* a supprimer avant le merge */
-section {
-    height: 100px;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 300px auto 100px;
 }
