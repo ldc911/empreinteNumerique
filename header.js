@@ -11,3 +11,11 @@ headerNav.addEventListener('click', function () {
         navItem[j].classList.toggle("navItemApparition");
     }
 });
+
+const nav = document.querySelector("#headerNav");
+const menu = document.querySelector("nav");
+const main = document.querySelector("main");
+nav.addEventListener('click', function () {
+    menu.classList.toggle("apparu");
+    main.style.filter = "alpha(opacity =60)"
+});
