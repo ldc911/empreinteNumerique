@@ -1,7 +1,6 @@
 // APPARITION DU MENU AU FORMAT MOBILE
 const nav = document.querySelector("#headerNavMobile");
 const menu = document.querySelector("nav");
-const body = document.querySelector("body");
 nav.addEventListener('click', function () {
     menu.classList.toggle("apparu");
 });

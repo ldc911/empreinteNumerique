@@ -22,11 +22,11 @@ header a {
 #headerNavMobile {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
-    padding-top: 3rem;
+    padding-top: 175px;
     background-image: url(decoPictures/cle2.png);
     background-repeat: no-repeat;
-    background-size: 35px;
     background-position: 0px 6.5px;
+    height: 200px;
 }
 
 #headerNavDesk {
@@ -123,8 +123,8 @@ header a {
 /* CSS MOBILE */
 
 header nav {
-    width: 25vh;
-    height: 100vh;
+    width: 40%;
+    height: 100%;
     background-color: var(--primaryColor);
     transition-property: display;
     transition-duration: 1s;
