@@ -2,7 +2,7 @@
 header {
     background-image: url("decoPictures/header.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 header a {
@@ -82,7 +82,7 @@ header a {
     }
 
     .headerNavLignMax {
-        width: 95%;
+        width: 80%;
     }
 
     #fixed {
@@ -107,9 +107,10 @@ header a {
 
     #headerNavName {
         margin: auto;
-        width: 90%;
+        width: 90vh;
         flex-direction: row;
         justify-content: flex-end;
+        align-items: flex-start;
     }
 
     #headerNavName div {

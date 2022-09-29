@@ -14,7 +14,7 @@ body {
 
     background-color: var(--secondaryColor);
     display: grid;
-    grid-template-rows: 175px auto 150px;
+    grid-template-rows: 500px auto 150px;
     font-family: var(--contentFont);
 }
 
