@@ -7,14 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/commentary.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleHeader.css" />
+    <link rel="stylesheet" href="css/styleFooter.css" />
     <link rel="stylesheet" href="css/styleCarrousel.css" />
     <!--Style CSS carrousel responsive Charline-->
     <title>Document</title>
 </head>
 
 <body>
+    <!-- sur branche header -->
     <header>
-        <nav></nav>
+        <div id="fixed">
+            <div id="headerNavMobile">
+                <nav class="disparu">
+                    <ul>
+                        <li>Présentation</li>
+                        <li>Photos</li>
+                        <li>Expression</li>
+                        <li>Empreinte numérique</li>
+                        <li>Commentaires</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="headerNavDesk">
+                <div id="headerNavName">
+                    <div class="navItem"><a href="#">Présentation</a></div>
+                    <div class="navItem"><a href="#">Photos</a></div>
+                    <div class="navItem"><a href="#">Expression</a></div>
+                    <div class="navItem"><a href="#">Empreinte numérique</a></div>
+                    <div class="navItem"><a href="#">Commentaires</a></div>
+                </div>
+                <div class=" headerNavLign"></div>
+                <div class="headerNavLign"></div>
+                <div class="headerNavLign" id="clef"></div>
+                <div class=" headerNavLign"></div>
+                <div class="headerNavLign"></div>
+            </div>
+            </nav>
+        </div>
     </header>
     <main>
         <section>Présentation</section>
@@ -103,7 +133,11 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <p>© 2022 - Projet Un</p>
+        <a href="https://www.wildcodeschool.com/" target="_blank"><img src=" css/decoPictures/WildNetB.png" /></a>
+        <p>Site web développé par Charline Vergoz, Laurent Duclos, Rémy Bernardin et Marie-Hermine Schneider</p>
+    </footer>
     <script src="index.js"></script>
     <script src="comm.js"></script>
 
