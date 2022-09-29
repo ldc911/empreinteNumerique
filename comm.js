@@ -49,10 +49,22 @@ function resetStars(note = 0) {
 
     }
 }
+
+function resetChamps(){
+    userName.value = "";
+    formTitle.value="";
+    userComment.value = "";
+    userMail.value = "";
+    note.value=0;
+}
+
 //on récupère les éléments du form
 const commentBoxes = document.querySelector(".commentBoxes");
-
+const userName = document.getElementById("formName");
+const formTitle = document.getElementById("formTitle")
 const formButton = document.querySelector(".formButton");
+const userMail = document.getElementById("formMail");
+const userComment = document.getElementById("commentaire");
 
 function createCommentBox(title, note, content, nom, mail) {
     const commentBox = document.createElement("div");
@@ -93,15 +105,17 @@ function createCommentBox(title, note, content, nom, mail) {
 
 formButton.addEventListener("click", function (event) {
     event.preventDefault();
-    const userName = document.getElementById("formName").value;
+    const userNameA = userName.value;
 
-    const formTitle = document.getElementById("formTitle").value;
+    const formTitleA = formTitle.value;
 
-    const userMail = document.getElementById("formMail").value;
+    const userMailA = userMail.value;
 
-    const note = document.getElementById("note").value;
+    const noteA = note.value;
 
-    const userComment = document.getElementById("commentaire").value;
+    const userCommentA = userComment.value;
 
-    createCommentBox(formTitle, note, userComment, userName, userMail);
+    createCommentBox(formTitleA, noteA, userCommentA, userNameA, userMailA);
+    resetStars();
+    resetChamps();
 })
