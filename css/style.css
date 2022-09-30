@@ -32,17 +32,20 @@ h1 {
 }
 
 section {
-    margin: 1rem;
     width: 80%;
     margin: auto;
+
 }
 
-section {
-    font-size: 1rem;
+section p {
+    font-size: 2rem;
+
 }
+
 
 .archet {
-    width: 200px;
+    width: 300px;
+    margin: 1rem;
 
 }
 
