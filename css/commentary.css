@@ -16,6 +16,7 @@
     width: 25px;
     height: 25px;
 }
+
 /* fin css étoiles */
 
 /* css form */
@@ -62,6 +63,7 @@
     box-shadow: 2px 2px 4px darkgrey;
 
 }
+
 /* fin css form */
 
 /* css com display */
@@ -82,7 +84,7 @@
     border-radius: 0.45rem;
     border-bottom-left-radius: 1.5em;
     border-top-right-radius: 1.5rem;
-    background-color: var(--secondaryColor);
+    background-color: white;
     box-shadow: 1px 3px 4px darkgray;
 }
 
@@ -114,4 +116,5 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 /* fin css com display */
