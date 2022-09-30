@@ -4,8 +4,24 @@
 
     --secondaryColor: #fffaed;
 
-    --titeFont: Apple Chancery, Cursive;
+    --titleFont: Apple Chancery, Cursive;
 
     --contentFont: Verdana, Optima, sans-serif;
 
 }
+
+
+body {
+    width: 80vh;
+    margin: auto;
+    background-color: var(--secondaryColor);
+    display: grid;
+    grid-template-rows: 175px auto 150px;
+    font-family: var(--contentFont);
+}
+
+main {
+    background-color: grey;
+
+}
+

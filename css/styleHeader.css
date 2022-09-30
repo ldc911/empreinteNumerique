@@ -1,0 +1,150 @@
+/* VERSION MOBILE < 768px */
+header {
+    background-image: url("decoPictures/header.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-family: var(--titleFont);
+    font-size: 0.9rem;
+}
+
+#fixed {
+    width: 100%;
+    position: fixed;
+    height: 85px;
+    /* box-shadow: 0 0 7px 4px black; */
+}
+
+#headerNavMobile {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 3rem;
+    background-image: url(decoPictures/cle2.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 0px 6.5px;
+}
+
+#headerNavDesk {
+    display: none;
+}
+
+.navItem {
+    opacity: 0;
+}
+
+.navItemApparition {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 4s;
+    text-decoration: none;
+}
+
+#headerNavName {
+    margin-top: -28px;
+    margin-left: -8px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+#headerNavName div {
+    width: 6rem;
+    height: 2rem;
+    background: white;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+
+
+/* VERSION DESKTOP à partir de 769px */
+@media screen and (min-width: 769px) {
+
+
+    header a {
+        color: var(--secondaryColor);
+        text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+
+    }
+
+    .headerNavLign {
+        width: 3rem;
+        border-bottom: 1px solid var(--secondaryColor);
+        margin: 0px;
+        margin-bottom: 7px;
+        transition-property: width;
+        transition-duration: 2s;
+    }
+
+    .headerNavLignMax {
+        width: 95%;
+    }
+
+    #fixed {
+        height: 85px;
+        /* box-shadow: 0 0 7px 4px black; */
+    }
+
+    #headerNavMobile {
+        display: none;
+    }
+
+    #headerNavDesk {
+        display: block;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-size: 58px;
+        background-image: url(decoPictures/cle2.png);
+        background-repeat: no-repeat;
+    }
+
+    #headerNavName {
+        margin: auto;
+        width: 90%;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #headerNavName div {
+        background-color: transparent;
+        padding-right: 1.5rem;
+        padding-top: 7px;
+
+    }
+}
+
+/* CSS MOBILE */
+
+header nav {
+    width: 25vh;
+    height: 100vh;
+    background-color: var(--primaryColor);
+    transition-property: display;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    display: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+header nav li {
+    margin-top: 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.apparu {
+    display: block;
+}
