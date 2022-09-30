@@ -21,6 +21,9 @@ body {
 main {
     background-color: var(--secondaryColor);
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -34,10 +37,27 @@ section {
     margin: auto;
 }
 
-@media screen and (min-width:800px) {
+section {
+    font-size: 1rem;
+}
+
+.archet {
+    width: 200px;
+
+}
+
+@media screen and (min-width:769px) {
     body {
         width: 80%;
         margin: auto;
     }
 
+    section p {
+        font-size: 1rem;
+    }
+
+    #presentation div {
+        display: flex;
+        margin: 1rem;
+    }
 }
