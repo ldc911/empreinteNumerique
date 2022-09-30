@@ -2,7 +2,8 @@
 header {
     background-image: url("decoPictures/header.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 200px;
 }
 
 header a {
@@ -16,17 +17,18 @@ header a {
     width: 100%;
     position: fixed;
     height: 85px;
+    z-index: 1;
     /* box-shadow: 0 0 7px 4px black; */
 }
 
 #headerNavMobile {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
-    padding-top: 3rem;
+    padding-top: 175px;
     background-image: url(decoPictures/cle2.png);
     background-repeat: no-repeat;
-    background-size: 35px;
     background-position: 0px 6.5px;
+    height: 200px;
 }
 
 #headerNavDesk {
@@ -57,8 +59,6 @@ header a {
     height: 2rem;
     background: white;
     padding: 1rem;
-    border: 1px solid black;
-
 }
 
 
@@ -69,6 +69,7 @@ header a {
     header a {
         color: var(--secondaryColor);
         text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+        font-size: 1.2rem;
 
     }
 
@@ -86,8 +87,7 @@ header a {
     }
 
     #fixed {
-        height: 85px;
-        /* box-shadow: 0 0 7px 4px black; */
+        position: relative;
     }
 
     #headerNavMobile {
@@ -110,6 +110,7 @@ header a {
         width: 90%;
         flex-direction: row;
         justify-content: flex-end;
+        align-items: flex-start;
     }
 
     #headerNavName div {
@@ -123,8 +124,8 @@ header a {
 /* CSS MOBILE */
 
 header nav {
-    width: 25vh;
-    height: 100vh;
+    width: 40%;
+    height: 100%;
     background-color: var(--primaryColor);
     transition-property: display;
     transition-duration: 1s;

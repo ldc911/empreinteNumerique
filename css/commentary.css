@@ -1,25 +1,8 @@
-:root {
-
-    --primaryColor: rgb(43, 43, 43);
-
-    --secondaryColor: #fffaed;
-
-    --titeFont: Apple Chancery, Cursive;
-
-    --contentFont: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-body {
-    margin: 0;
-    background-color: antiquewhite;
-}
-
-
 .blocStar {
     display: flex;
 }
 
+/* css étoiles */
 .emptyStar {
     background-image: url(assets/empty_star.png);
     background-size: contain;
@@ -34,12 +17,13 @@ body {
     height: 25px;
 }
 
+/* fin css étoiles */
+
+/* css form */
 .formContainers {
-    margin: auto;
     display: flex;
     flex-direction: column;
     min-width: 200px;
-    width: 80vw;
 }
 
 .formHeader {
@@ -62,7 +46,7 @@ body {
     border-width: 1px;
     border-color: var(--primaryColor);
     margin-bottom: 1rem;
-    width: 80vw;
+    width: 100%;
     min-width: 200px;
     box-shadow: 2px 2px 4px darkgrey;
 }
@@ -80,6 +64,9 @@ body {
 
 }
 
+/* fin css form */
+
+/* css com display */
 .commentBoxes {
     display: flex;
     justify-content: space-between;
@@ -97,7 +84,7 @@ body {
     border-radius: 0.45rem;
     border-bottom-left-radius: 1.5em;
     border-top-right-radius: 1.5rem;
-    background-color: rgb(244, 252, 253);
+    background-color: white;
     box-shadow: 1px 3px 4px darkgray;
 }
 
@@ -129,3 +116,5 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+/* fin css com display */

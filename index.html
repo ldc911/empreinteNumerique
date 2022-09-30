@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/expression.css"/>
-    <link rel="stylesheet" href="css/commentary.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/expression.css" />
+    <link rel="stylesheet" href="css/commentary.css" />
+    <link rel="stylesheet" href="css/styleCarrousel.css" />
     <link rel="stylesheet" href="css/styleHeader.css" />
     <link rel="stylesheet" href="css/styleFooter.css" />
-    <link rel="stylesheet" href="css/styleCarrousel.css" />
+
     <!--Style CSS carrousel responsive Charline-->
     <title>Document</title>
 </head>
@@ -23,21 +23,31 @@
             <div id="headerNavMobile">
                 <nav class="disparu">
                     <ul>
-                        <li>Présentation</li>
-                        <li>Photos</li>
-                        <li>Expression</li>
-                        <li>Empreinte numérique</li>
-                        <li>Commentaires</li>
+                        <a href="#presentation">
+                            <li>Présentation</li>
+                        </a>
+                        <a href="#carrousel">
+                            <li>Photos</li>
+                        </a>
+                        <a href="#expression">
+                            <li>Musique</li>
+                        </a>
+                        <a href="#empreinte">
+                            <li>Empreinte numérique</li>
+                        </a>
+                        <a href="#commentaires">
+                            <li>Commentaires</li>
+                        </a>
                     </ul>
                 </nav>
             </div>
             <div id="headerNavDesk">
                 <div id="headerNavName">
-                    <div class="navItem"><a href="#">Présentation</a></div>
-                    <div class="navItem"><a href="#">Photos</a></div>
-                    <div class="navItem"><a href="#">Expression</a></div>
-                    <div class="navItem"><a href="#">Empreinte numérique</a></div>
-                    <div class="navItem"><a href="#">Commentaires</a></div>
+                    <div class="navItem"><a href="#presentation">Présentation</a></div>
+                    <div class="navItem"><a href="#carrousel">Photos</a></div>
+                    <div class="navItem"><a href="#expression">Musique</a></div>
+                    <div class="navItem"><a href="#empreinte">Empreinte numérique</a></div>
+                    <div class="navItem"><a href="#commentaires">Commentaires</a></div>
                 </div>
                 <div class=" headerNavLign"></div>
                 <div class="headerNavLign"></div>
@@ -49,130 +59,213 @@
         </div>
     </header>
     <main>
-        <section>Présentation</section>
-        <section>Carousel</section>
+        <section id="presentation">
+            <h1>Présentation</h1>
+            <div>
+                <div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum."</p>
+                </div>
+                <div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </section>
+        <img src="css/decoPictures/archet_stylised.png" class="archet" />
+        <section id="carrousel">
+            <h1>Carrousel</h1>
+
+            <!--Debut carrousel responsive Charline-->
+            <div id="bodyCarrousel">
+
+                <div id="carrouselContainer">
+                </div>
+                <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselRight" />
+                <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselLeft" />
+            </div>
+            <!--Fin carrousel responsive Charline-->
+        </section>
+        <img src="css/decoPictures/archet_stylised.png" class="archet" />
 
         <section class="expression">Expression
 
             <!-- lecteur de musique  -->
-             <div class ="expressionPlayerAudio"> 
+            <div class="expressionPlayerAudio">
 
                 <!-- titre principale  -->
-                 <h2>Sound made in Arthur</h2>
+                <h2>Sound made in Arthur</h2>
 
-                 <!-- Lecteur N°1 -->
+                <!-- Lecteur N°1 -->
                 <figure>
                     <!-- Titre/Nom du son N°1 -->
-                     <figcaption Class = "playerComment">Artillerie Lourde</figcaption>
+                    <figcaption Class="playerComment">Artillerie Lourde</figcaption>
                     <!-- Appel du son N°1 -->
-                      <audio src ="/css/arthurSound/Artillerie Lourde.mp3" controls></audio>
-                 </figure>
+                    <audio src="/css/arthurSound/Artillerie Lourde.mp3" controls></audio>
+                </figure>
 
-                 <!-- Lecteur N°2 -->
-                 <figure>
+                <!-- Lecteur N°2 -->
+                <figure>
                     <!-- Titre/Nom du son N°2 -->
-                       <figcaption Class = "playerComment">Sweet Georgia Brown</figcaption>
+                    <figcaption Class="playerComment">Sweet Georgia Brown</figcaption>
                     <!-- Appel du son N°2 -->
-                     <audio src ="/css/arthurSound/Sweet Georgia Brown.mp3" controls></audio>
-                 </figure>
+                    <audio src="/css/arthurSound/Sweet Georgia Brown.mp3" controls></audio>
+                </figure>
 
-                 <!-- Lecteur N°3 -->
-                 <figure>
+                <!-- Lecteur N°3 -->
+                <figure>
                     <!-- Titre/Nom du son N°3 -->
-                        <figcaption Class = "playerComment">Tears</figcaption>
+                    <figcaption Class="playerComment">Tears</figcaption>
                     <!-- Appel du son N°3 -->
-                  <audio src ="/css/arthurSound/Tears.mp3" controls></audio>
-                  </figure>
-            
-                  <div class ="expressionOrale">
+                    <audio src="/css/arthurSound/Tears.mp3" controls></audio>
+                </figure>
+
+                <div class="expressionOrale">
                     <!-- titre principale  -->
-                 <h2>Expression orale made in Arthur</h2>
+                    <h2>Expression orale made in Arthur</h2>
 
-                  </div>
+                </div>
             </div>
 
-        </section>
-        <section>Expression</section>
-        <section>Empreinte numérique</section>
-        <section>Commentaires
-            <form class="formContainers">
-                <div class="formHeader">
+            <img src="css/decoPictures/archet_stylised.png" class="archet" />
+
+            <section id="empreinte">
+                <h1>Empreinte numérique</h1>
+                <div>
                     <div>
-                        <label for="titre" class="formLabel">Titre</label>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum."</p>
                     </div>
-                    <div class="blocStar">
-                        <div class="emptyStar" data-value="1"></div>
-                        <div class="emptyStar" data-value="2"></div>
-                        <div class="emptyStar" data-value="3"></div>
-                        <div class="emptyStar" data-value="4"></div>
-                        <div class="emptyStar" data-value="5"></div>
+                    <div>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum."</p>
                     </div>
                 </div>
-                <div>
-                    <input type="text" name="titre" class="formContainer formChamp" id="formTitle">
-                </div>
-                <div>
-                    <label for="userName" class="formLabel">Nom</label>
-                </div>
-                <div>
-                    <input type="text" name="userName" class="formContainer formChamp" id="formName">
-                </div>
-                <div>
-                    <label for="userMail" class="formLabel">Email</label>
-                </div>
-                <div>
-                    <input type="email" name="userMail" class="formContainer formChamp" id="formMail">
-                </div>
-                <div>
-                    <label for="commentaire" class="formLabel">Commentaire</label>
-                </div>
-                <div>
-                    <textarea name="comment" id="commentaire" class="formContainer formChamp"></textarea>
-                </div>
+            </section>
+            <img src="css/decoPictures/archet_stylised.png" class="archet" />
 
-                <input type="hidden" name="note" id="note" value="0">
-                <button type="submit" class="formButton">Valider</button>
-            </form>
 
-            <div class="commentBoxes">
-                <div class="commentBox">
-                    <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
+            <!--Début formulaire laurent-->
+            <section id="commentaires">
+                <h1>Commentaires</h1>
+                <!--Début formulaire-->
+                <form class="formContainers">
+                    <div class="formHeader">
+                        <div>
+                            <label for="titre" class="formLabel">Titre</label>
+                        </div>
+                        <div class="blocStar">
+                            <div class="emptyStar" data-value="1"></div>
+                            <div class="emptyStar" data-value="2"></div>
+                            <div class="emptyStar" data-value="3"></div>
+                            <div class="emptyStar" data-value="4"></div>
+                            <div class="emptyStar" data-value="5"></div>
+                        </div>
                     </div>
-                    <div class="commentBoxContent">content</div>
-
-                    <div class="commentBoxFooter">
-                        <div>nom</div>
+                    <div>
+                        <input type="text" name="titre" class="formContainer formChamp"
+                            placeHolder="C'est super génial !" id="formTitle" required>
                     </div>
-
-                </div>
-                <div class="commentBox">
-                    <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
+                    <div>
+                        <label for="userName" class="formLabel">Nom</label>
                     </div>
-                    <div class="commentBoxContent">content</div>
-
-                    <div class="commentBoxFooter">
-                        <div>nom</div>
+                    <div>
+                        <input type="text" name="userName" class="formContainer formChamp"
+                            placeHolder="Je s'appelle groot" id="formName" required>
+                    </div>
+                    <div>
+                        <label for="userMail" class="formLabel">Email</label>
+                    </div>
+                    <div>
+                        <input type="email" name="userMail" class="formContainer formChamp"
+                            placeHolder="exemple@email.com" id="formMail" required>
+                    </div>
+                    <div>
+                        <label for="commentaire" class="formLabel">Commentaire</label>
+                    </div>
+                    <div>
+                        <textarea name="comment" id="commentaire" placeHolder="Votre commentaire. Soyez gentils svp !"
+                            class="formContainer formChamp" required></textarea>
                     </div>
 
-                </div>
-                <div class="commentBox">
-                    <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
-                    </div>
-                    <div class="commentBoxContent">content</div>
+                    <input type="hidden" name="note" id="note" value="0">
+                    <button type="submit" class="formButton">Valider</button>
+                </form>
+                <!--Fin formulaire-->
 
-                    <div class="commentBoxFooter">
-                        <div>nom</div>
-                    </div>
+                <!--Début affichage commentaires-->
 
+                <div class="commentBoxes">
+                    <div class="commentBox">
+                        <div class="commentBoxHeader">
+                            <div class="commentBoxHeaderContent">title</div>
+                            <div class="commentBoxHeaderContent">note</div>
+                        </div>
+                        <div class="commentBoxContent">content</div>
+
+                        <div class="commentBoxFooter">
+                            <div>nom</div>
+                        </div>
+
+                    </div>
+                    <div class="commentBox">
+                        <div class="commentBoxHeader">
+                            <div class="commentBoxHeaderContent">title</div>
+                            <div class="commentBoxHeaderContent">note</div>
+                        </div>
+                        <div class="commentBoxContent">content</div>
+
+                        <div class="commentBoxFooter">
+                            <div>nom</div>
+                        </div>
+
+                    </div>
+                    <div class="commentBox">
+                        <div class="commentBoxHeader">
+                            <div class="commentBoxHeaderContent">title</div>
+                            <div class="commentBoxHeaderContent">note</div>
+                        </div>
+                        <div class="commentBoxContent">content</div>
+
+                        <div class="commentBoxFooter">
+                            <div>nom</div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <!--Fin section commentaire laurent-->
+            <img src="css/decoPictures/violon.png" class="archet" />
 
     </main>
     <footer>
@@ -182,19 +275,8 @@
     </footer>
     <script src="index.js"></script>
     <script src="comm.js"></script>
-
-
-    <!--Debut carrousel responsive Charline-->
-    <div id="bodyCarrousel">
-
-        <div id="carrouselContainer">
-        </div>
-        <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselRight" />
-        <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselLeft" />
-        <script src="carrousel.js"></script>
-    </div>
-    <!--Fin carrousel responsive Charline-->
-
+    <script src="header.js"></script>
+    <script src="carrousel.js"></script>
 
 </body>
 

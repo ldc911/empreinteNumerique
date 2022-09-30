@@ -1,29 +1,3 @@
-:root {
-
-    --primaryColor: rgb(43, 43, 43);
-
-    --secondaryColor: #fffaed;
-
-    --titeFont: Apple Chancery, Cursive;
-
-    --contentFont: Verdana, Optima, sans-serif;
-
-}
-
-div {
-    display: flex;
-}
-
-*body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: var(--secondaryColor);
-    background-size: cover;
-}
-
 #bodyCarrousel {
     width: 100%;
     height: auto;
@@ -32,6 +6,7 @@ div {
     position: relative;
     overflow: hidden;
     margin: auto;
+    z-index: 2;
 }
 
 @media screen and (min-width: 320px) {
@@ -43,6 +18,7 @@ div {
         overflow: hidden;
         position: relative;
         margin: auto;
+        z-index: 2;
     }
 }
 

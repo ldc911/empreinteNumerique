@@ -100,10 +100,10 @@ function createCommentBox(title, note, content, nom, mail) {
 
     // const footerContentB = document.createElement("div");
     // footerContentB.innerHTML = mail;
-    // commentBoxFooter.appendChild(footerContentB);
+    // section de desitnation.appendChild(footerContentB);
 }
 
-formButton.addEventListener("click", function (event) {
+const userForm = document.querySelector(".formContainers").addEventListener("submit", function (event) {
     event.preventDefault();
     const userNameA = userName.value;
 
@@ -118,4 +118,5 @@ formButton.addEventListener("click", function (event) {
     createCommentBox(formTitleA, noteA, userCommentA, userNameA, userMailA);
     resetStars();
     resetChamps();
+    //add la function pour implémenter le mail dans la liste à afficher
 })
