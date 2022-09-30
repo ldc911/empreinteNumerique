@@ -2,6 +2,7 @@
     display: flex;
 }
 
+/* css étoiles */
 .emptyStar {
     background-image: url(assets/empty_star.png);
     background-size: contain;
@@ -15,7 +16,9 @@
     width: 25px;
     height: 25px;
 }
+/* fin css étoiles */
 
+/* css form */
 .formContainers {
     margin: auto;
     display: flex;
@@ -61,7 +64,9 @@
     box-shadow: 2px 2px 4px darkgrey;
 
 }
+/* fin css form */
 
+/* css com display */
 .commentBoxes {
     display: flex;
     justify-content: space-between;
@@ -79,7 +84,7 @@
     border-radius: 0.45rem;
     border-bottom-left-radius: 1.5em;
     border-top-right-radius: 1.5rem;
-    background-color: rgb(244, 252, 253);
+    background-color: var(--secondaryColor);
     box-shadow: 1px 3px 4px darkgray;
 }
 
@@ -111,3 +116,4 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+/* fin css com display */

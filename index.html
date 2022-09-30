@@ -93,9 +93,10 @@
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum."</p>
         </section>
-        <section id="commentaires">
+            <!--Début formulaire laurent-->
+            <section id="commentaires">
             <h1>Commentaires</h1>
-
+    <!--Début formulaire-->
             <form class="formContainers">
                 <div class="formHeader">
                     <div>
@@ -110,30 +111,33 @@
                     </div>
                 </div>
                 <div>
-                    <input type="text" name="titre" class="formContainer formChamp" id="formTitle">
+                    <input type="text" name="titre" class="formContainer formChamp" placeHolder="C'est super génial !" id="formTitle" required>
                 </div>
                 <div>
                     <label for="userName" class="formLabel">Nom</label>
                 </div>
                 <div>
-                    <input type="text" name="userName" class="formContainer formChamp" id="formName">
+                    <input type="text" name="userName" class="formContainer formChamp" placeHolder="Je s'appelle groot" id="formName" required>
                 </div>
                 <div>
                     <label for="userMail" class="formLabel">Email</label>
                 </div>
                 <div>
-                    <input type="email" name="userMail" class="formContainer formChamp" id="formMail">
+                    <input type="email" name="userMail" class="formContainer formChamp" placeHolder="exemple@email.com" id="formMail" required>
                 </div>
                 <div>
                     <label for="commentaire" class="formLabel">Commentaire</label>
                 </div>
                 <div>
-                    <textarea name="comment" id="commentaire" class="formContainer formChamp"></textarea>
+                    <textarea name="comment" id="commentaire" placeHolder="Votre commentaire. Soyez gentils svp !" class="formContainer formChamp" required></textarea>
                 </div>
 
                 <input type="hidden" name="note" id="note" value="0">
                 <button type="submit" class="formButton">Valider</button>
             </form>
+    <!--Fin formulaire-->
+
+    <!--Début affichage commentaires-->
 
             <div class="commentBoxes">
                 <div class="commentBox">
@@ -174,6 +178,7 @@
                 </div>
             </div>
         </section>
+    <!--Fin section commentaire laurent-->
 
     </main>
     <footer>
