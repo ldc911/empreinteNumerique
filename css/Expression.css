@@ -1,0 +1,16 @@
+
+ .expression  h2 {
+    font-family: var(--titeFont) ;
+    color: var(--primaryColor);
+}
+
+.playerComment{
+
+    font-family: var(--contentFont);
+}
+
+div.expressionPlayerAudio{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
