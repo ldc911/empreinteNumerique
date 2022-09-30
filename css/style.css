@@ -16,6 +16,7 @@ body {
     display: grid;
     grid-template-rows: 200Px auto 150px;
     font-family: var(--contentFont);
+    width: 80%;
 }
 
 main {
@@ -61,6 +62,5 @@ section p {
 
     #presentation div {
         display: flex;
-        margin: 1rem;
     }
 }

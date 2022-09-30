@@ -17,6 +17,15 @@
     height: 25px;
 }
 
+.blocStar{
+    margin-left: 1rem;
+    
+}
+
+.formHeader .formLabel{
+    padding-top: 0.15rem;
+}
+
 /* fin css étoiles */
 
 /* css form */
@@ -26,9 +35,11 @@
     min-width: 200px;
 }
 
+
 .formHeader {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
 }
 
 .formLabel {
@@ -46,9 +57,21 @@
     border-width: 1px;
     border-color: var(--primaryColor);
     margin-bottom: 1rem;
-    width: 100%;
+    width : 100%;
     min-width: 200px;
     box-shadow: 2px 2px 4px darkgrey;
+}
+
+@media screen and (min-width :769px) {
+    .formContainer {
+        border-radius: 0.35rem;
+        border-width: 1px;
+        border-color: var(--primaryColor);
+        margin-bottom: 1rem;
+        width: 100%;
+        min-width: 200px;
+        box-shadow: 2px 2px 4px darkgrey;
+    }
 }
 
 .formButton {
@@ -69,18 +92,29 @@
 /* css com display */
 .commentBoxes {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     margin: auto;
+}
+
+@media screen and (min-width:769px) {
+    .commentBoxes {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
 }
 
 .commentBox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 1rem;
-    width: 300px;
-    height: 100px;
+    margin: 0.5rem;
+    width: 230px;
+    height: auto;
     border-radius: 0.45rem;
     border-bottom-left-radius: 1.5em;
     border-top-right-radius: 1.5rem;
@@ -115,6 +149,14 @@
     font-family: var(--contentFont);
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+::placeholder{
+    opacity: 0.5;
+}
+
+:focus::placeholder{
+    opacity: 0;
 }
 
 /* fin css com display */
