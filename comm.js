@@ -118,5 +118,6 @@ const userForm = document.querySelector(".formContainers").addEventListener("sub
     createCommentBox(formTitleA, noteA, userCommentA, userNameA, userMailA);
     resetStars();
     resetChamps();
+    alert(img.src=url(css/arthurPictures/im8.png));
     //add la function pour implémenter le mail dans la liste à afficher
 })
