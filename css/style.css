@@ -12,14 +12,14 @@
 
 body {
 
-    background-color: var(--secondaryColor);
+    background-image: url("decoPictures/bg.jpg");
     display: grid;
-    grid-template-rows: 500px auto 150px;
+    grid-template-rows: 200Px auto 150px;
     font-family: var(--contentFont);
 }
 
 main {
-    background-image: url("decoPictures/bg.jpg");
+    background-color: var(--secondaryColor);
     background-size: contain;
 
 }
@@ -30,6 +30,8 @@ h1 {
 
 section {
     margin: 1rem;
+    width: 80%;
+    margin: auto;
 }
 
 @media screen and (min-width:800px) {

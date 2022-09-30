@@ -17,11 +17,9 @@
 }
 
 .formContainers {
-    margin: auto;
     display: flex;
     flex-direction: column;
     min-width: 200px;
-    width: 80vw;
 }
 
 .formHeader {
@@ -44,7 +42,7 @@
     border-width: 1px;
     border-color: var(--primaryColor);
     margin-bottom: 1rem;
-    width: 80vw;
+    width: 100%;
     min-width: 200px;
     box-shadow: 2px 2px 4px darkgrey;
 }

@@ -3,6 +3,7 @@ header {
     background-image: url("decoPictures/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
 }
 
 header a {
@@ -16,6 +17,7 @@ header a {
     width: 100%;
     position: fixed;
     height: 85px;
+    z-index: 1;
     /* box-shadow: 0 0 7px 4px black; */
 }
 
@@ -57,8 +59,6 @@ header a {
     height: 2rem;
     background: white;
     padding: 1rem;
-    border: 1px solid black;
-
 }
 
 
