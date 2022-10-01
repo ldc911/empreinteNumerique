@@ -24,6 +24,9 @@
     display: flex;
     flex-direction: column;
     min-width: 200px;
+    /* modification du width pour que ça rentre dans la version mobile */
+    width: 90%;
+    margin: auto;
 }
 
 .formHeader {
@@ -72,6 +75,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
+    /* réduction de la taille de l'encadrement des commentaires afin de le centrer sur le formulaire */
+    width: 90%;
 }
 
 .commentBox {
