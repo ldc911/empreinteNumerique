@@ -1,31 +1,8 @@
-/* CSS VERSION MOBILE ENTRE 0 ET 390 */
-body {
-    margin: 0;
-}
-
 header ul {
     list-style-type: none;
     display: none;
 }
 
-section {
-    padding: 1rem;
-}
-
-section:nth-child(even) {
-    width: 100%;
-    background-color: var(--secondaryColor);
-}
-
-section:nth-child(odd) {
-    width: 100%;
-    background-color: var(--primaryColor);
-    color: var(--secondaryColor);
-}
-
-section p {
-    width: 100%;
-}
 
 #headerNavMobile {
     display: none;

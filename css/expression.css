@@ -1,5 +1,5 @@
 .expression h1 {
-    font-family: var(--titeFont);
+    font-family: var(--titleFont);
     color: var(--primaryColor);
 }
 
