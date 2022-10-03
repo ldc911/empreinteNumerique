@@ -189,7 +189,7 @@
                         <div class="emptyStar" data-value="4"></div>
                         <div class="emptyStar" data-value="5"></div>
                     </div>
-                    
+
                 </div>
                 <div>
                     <label for="titre" class="formLabel">Titre</label>
@@ -224,7 +224,12 @@
                 <input type="hidden" name="note" id="note" value="0">
                 <button type="submit" class="formButton">Valider</button>
             </form>
-            <div class="popIn">TEST</div>
+            <div class="popIn" id="pop">
+                <div><img class="popContent" src="css\arthurPictures\im6.png"></div>
+                <div class="closeButton">
+                    Close
+                </div>
+            </div>
 
             <!--Fin formulaire-->
 
@@ -267,6 +272,14 @@
                     </div>
 
                 </div>
+            </div>
+            <button class="formButton" id="dataButton">Données</button>
+            <div class="popIn" id="dataList">
+                <ul class="popContent" id="mailList">
+                    <h2>Mails collectés</h2>
+                    <li class="mailList">test</li>
+                </ul>
+                <button class="closeButton" id="closeMailList">Close</button>
             </div>
         </section>
         <!--Fin section commentaire laurent-->
