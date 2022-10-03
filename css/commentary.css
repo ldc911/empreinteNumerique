@@ -87,6 +87,20 @@
 
 }
 
+/* .popIn{
+    display : none;
+} */
+
+.popIn{
+    position:fixed ;
+    display:block;
+    top : 1rem;
+    bottom : 1rem;
+    left: 1rem;
+    right : 1rem;
+    background-color: rgba(3, 3, 3, 0.4);
+}
+
 /* fin css form */
 
 /* css com display */
