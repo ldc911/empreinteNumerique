@@ -3,6 +3,8 @@ const stars = document.querySelectorAll(".emptyStar");
 //stars.style.color= "lightgray";
 //on va chercher la note, l'input
 const note = document.querySelector("#note");
+//preparation du body blurr
+const bodyBlurr = document.querySelector(".bodyBlurrOff");
 
 //on boucle sur les étoies pour ajouter un event listener
 for (star of stars) {
@@ -118,11 +120,16 @@ function popListUp() {
     const listOut = document.querySelector("#dataList");
     listOut.classList.add("popOut");
     listOut.classList.remove("popIn");
+    // bodyBlurr.classList.remove("bodyBlurrOff");
+    // bodyBlurr.classList.add("bodyBlurrOn");
 }
 function popListOut() {
     const listOut = document.querySelector("#dataList");
     listOut.classList.add("popIn");
     listOut.classList.remove("popOut");
+    // bodyBlurr.classList.add("bodyBlurrOff");
+    // bodyBlurr.classList.remove("bodyBlurrOn");
+
 }
 
 //déclenchement au submit de la création du bloc comm

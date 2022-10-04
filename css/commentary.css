@@ -87,48 +87,6 @@
 
 }
 
-.popIn {
-    display: none;
-}
-
-.popOut {
-    position: fixed;
-    display: block;
-    align-items: center;
-    padding: 25%;
-    top: 1rem;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
-    background-color: rgba(40, 40, 40, 0.9);
-    z-index: 3;
-}
-
-.popContent {
-    width: 50vw;
-    min-width: 250px;
-    font-family: var(--contentFont);
-    color :var(--primaryColor);
-    border-radius : 3px;
-    background-color: var(--secondaryColor);
-    box-shadow: 2px 2px 5px black;
-
-}
-
-.closeButton {
-    background-color: var(--secondaryColor);
-    font-family: var(--contentFont);
-    color: var(--primaryColor);
-    text-shadow: 1px 2px 2px darkgray;
-
-    width: 3rem;
-    text-align: center;
-    padding: 3px;
-    border-radius: 2px;
-    margin: 1rem;
-    box-shadow: 2px 2px 5px black;
-    cursor: pointer;
-}
 
 /* fin css form */
 
@@ -204,10 +162,62 @@
 
 /* fin css com display */
 
-/* début css popup mails*/
+/* début css popup */
 
 .mailList{
     list-style : none;
     margin : 1rem;
     padding-bottom: 1rem;
+}
+
+.popIn {
+    display: none;
+}
+
+.popOut {
+    position: fixed;
+    display: block;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 25vh;
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    background-color: rgba(40, 40, 40, 0.9);
+    z-index: 3;
+}
+
+.popContent {
+    width: 50vw;
+    min-width: 250px;
+    font-family: var(--contentFont);
+    color :var(--primaryColor);
+    border-radius : 3px;
+    background-color: var(--secondaryColor);
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.closeButton {
+    background-color: var(--secondaryColor);
+    font-family: var(--contentFont);
+    color: var(--primaryColor);
+    text-shadow: 1px 2px 2px darkgray;
+
+    width: 3rem;
+    text-align: center;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 1rem;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.bodyBlurrOn{
+    filter: blur(4px);
+    z-index: 0;
+}
+.bodyBlurrOff{
+    filter: none;
 }
