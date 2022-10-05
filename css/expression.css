@@ -32,56 +32,55 @@
   }
 
   .card-img-0 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 200px;
     width: 100%;
   }
 
   .card-img-1 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: 100%;
+    /* height: 200px;
+    width: 100%; */
   }
 
   .card-img-2 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 200px;
     width: 100%;
   }
 
   .card-img-3 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 200px;
     width: 100%;
   }
 
   .card-img-4 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
     width: 100%;
   }
 
   .card-img-5 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 200px;
     width: 100%;
   }
 
   .card-img-6 {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 200px;
     width: 100%;

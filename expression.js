@@ -2,37 +2,37 @@ const arthurExpression = [
         {
         position : 0,
         expression : "En vrai je kiff le concept mais je claque un peu du....",
-        image : "css/arthurPictures/78815489.jpeg",
+        image : "css/calquesArthur/arthurCalque9.png",
         },
         {
         position : 1,
         expression : "Chanmé !",
-        image : "css/arthurPictures/6_avril_2012.jpg",
+        image : "css/calquesArthur/calqueArthur3.png",
         },
         {
         position : 2,
         expression : "T'es même pas un titre Freres",
-        image : "css/arthurPictures/10_novembre_2016.jpg",
+        image : "css/calquesArthur/arthurCalque2.png",
         },
         {
         position : 3,
         expression :"c'est pas comme ça qu'es-ce qu'on fait",
-        image : "css/arthurPictures/29665294_10215624980763298_6827110433444467909_o.jpg",
+        image : "css/calquesArthur/arthurCalque4png.png",
         },
         {
         position : 4, 
         expression : "BOUM galipette regarde ce que je sais faire",
-        image : "css/arthurPictures/Arthur_Amuseon.jpg",
+        image : "css/calquesArthur/arthurCalque5.retraité.png",
         },
         {
         position : 5,
         expression :"Tu lui compresse sa race",
-        image : "css/arthurPictures/im5.png",
+        image : "css/calquesArthur/arthurCalque6Retraité.png",
         },
         {
         position : 6,
         expression : "canard en plastique a votre service",
-        image : "css/arthurPictures/im12.png",
+        image : "css/calquesArthur/arhurCalque10.retraité.png",
         },
     ];
     
@@ -73,13 +73,13 @@ const arthurExpression = [
     });
 
     cardImage2.addEventListener("click", function(){
-        let text= "chanmé "
+        let text= "champs mais "
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
     });
 
     cardImage3.addEventListener("click", function(){
-        let text= "c'est pas comme ça qu'es-ce qu'on fait"
+        let text= "c'est pas comme ça qu'esse qu'on fait"
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
     });
