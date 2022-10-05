@@ -65,6 +65,7 @@
             <h1>Présentation</h1>
             <div>
                 <div>
+
                     <p><span id="titleArticleArthur"> Qui est Arthur ? <br /> <br /></span>
                         <span> Tout en restant dans le respect de sa vie privée. <br /></span>
                         <span> Arthur est un jeune homme (je crois), de 30 ans, né en 1992 et est l'ainé d'une famille
@@ -105,9 +106,10 @@
         <img src="css/decoPictures/archet_stylised.png" class="archet" />
         <section id="carrousel">
             <h1>Carrousel</h1>
-
+         
             <!--Debut carrousel responsive Charline-->
             <div id="bodyCarrousel">
+
 
                 <div id="carrouselContainer">
                 </div>
@@ -115,23 +117,13 @@
                 <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselLeft" />
             </div>
             <!--Fin carrousel responsive Charline-->
+            
         </section>
         <img src="css/decoPictures/archet_stylised.png" class="archet" />
 
         <section class="expression">
             <h1>Musique par Arthur</h1>
 
-            <div id="carrouselContainer">
-            </div>
-            <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselRight" />
-            <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselLeft" />
-            </div>
-
-
-            <!--Fin carrousel responsive Charline-->
-        </section>
-        <img src="css/decoPictures/archet_stylised.png" class="archet" />
-        =======
         <!-- lecteur de musique  -->
         <div class="expressionPlayerAudio">
 
@@ -286,6 +278,10 @@
                     </ul>
                     </p>
                 </div>
+           
+
+
+          
             </div>
         </section>
         <img src="css/decoPictures/archet_stylised.png" class="archet" />
@@ -309,7 +305,10 @@
                 </div>
                 <div>
                     <label for="titre" class="formLabel">Titre</label>
-                </div>
+
+
+    
+            </div>
 
                 <div>
                     <input type="text" name="titre" class="formContainer formChamp" placeHolder="C'est super génial !"
@@ -340,63 +339,71 @@
                 <input type="hidden" name="note" id="note" value="0">
                 <button type="submit" class="formButton">Valider</button>
             </form>
+            
             <div class="popIn" id="pop">
-                <div><img class="popContent" src="css\arthurPictures\im6.png"></div>
-                <div class="closeButton">
-                    Close
+                <div><img class="popContent" src="css/assets/canvas.png">
+                    <div class="closeButton">
+                        Close
+          
                 </div>
             </div>
 
             <!--Fin formulaire-->
+
+           
 
             <!--Début affichage commentaires-->
 
             <div class="commentBoxes">
                 <div class="commentBox">
                     <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
+                        <div class="commentBoxHeaderContent">C'était un peu naze</div>
+                        <div class="commentBoxHeaderContent">1/5</div>
                     </div>
-                    <div class="commentBoxContent">content</div>
+                    <div class="commentBoxContent">Si c'était pour faire ça, fallait pas venir.</div>
 
                     <div class="commentBoxFooter">
-                        <div>nom</div>
+                        <div>Rémy</div>
                     </div>
 
                 </div>
                 <div class="commentBox">
                     <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
+                        <div class="commentBoxHeaderContent">Mouais bof</div>
+                        <div class="commentBoxHeaderContent">2/5</div>
                     </div>
-                    <div class="commentBoxContent">content</div>
+                    <div class="commentBoxContent">Ca aurait pu être pire, Arthur...</div>
 
                     <div class="commentBoxFooter">
-                        <div>nom</div>
+                        <div>Marie-Hermine</div>
+
                     </div>
 
                 </div>
                 <div class="commentBox">
                     <div class="commentBoxHeader">
-                        <div class="commentBoxHeaderContent">title</div>
-                        <div class="commentBoxHeaderContent">note</div>
+
+                        <div class="commentBoxHeaderContent">TROP BIEN !!</div>
+                        <div class="commentBoxHeaderContent">5/5</div>
                     </div>
-                    <div class="commentBoxContent">content</div>
+                    <div class="commentBoxContent">JE KIFF ! Mais j'en peux plus de toi...</div>
 
                     <div class="commentBoxFooter">
-                        <div>nom</div>
+                        <div>CHaCha</div>
                     </div>
 
                 </div>
             </div>
             <button class="formButton" id="dataButton">Données</button>
             <div class="popIn" id="dataList">
-                <ul class="popContent" id="mailList">
-                    <h2>Mails collectés</h2>
-                    <li class="mailList">test</li>
-                </ul>
-                <button class="closeButton" id="closeMailList">Close</button>
+                <div class="flexContainer">
+                    <ul class="popContentMail" id="mailList">
+                        <h2>Ce qu'on a récupéré et qu'on peut revendre ($$$)</h2>
+                    </ul>
+                    <div class="closeButton" id="closeMailList">Close</div>
+                </div>
             </div>
+
         </section>
         <!--Fin section commentaire laurent-->
         <img src="css/decoPictures/violon.png" class="archet" />
