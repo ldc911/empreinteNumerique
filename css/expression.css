@@ -20,10 +20,66 @@
     box-sizing: border-box;
     display : grid;
     grid-template-columns: repeat(2, 200px);
-    gap : 20px;
+    gap : 30px;
 }
 
 .card-img {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-0 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-1 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-2 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-3 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-4 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-5 {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .card-img-6 {
     border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
