@@ -52,16 +52,50 @@ const arthurExpression = [
     const cardPosition = document.querySelectorAll(".card-img");
     }
 
-    const cardImage0 = document.createElement(".card-img-0");
-    const cardImage1 = document.createElement(".card-img-1");
-    const cardImage2 = document.createElement(".card-img-2");
-    const cardImage3 = document.createElement(".card-img-3");
-    const cardImage4 = document.createElement(".card-img-4");
-    const cardImage5 = document.createElement(".card-img-5");
-    const cardImage6 = document.createElement(".card-img-6");
+    const cardImage0 = document.querySelector(".card-img-0");
+    const cardImage1 = document.querySelector(".card-img-1");
+    const cardImage2 = document.querySelector(".card-img-2");
+    const cardImage3 = document.querySelector(".card-img-3");
+    const cardImage4 = document.querySelector(".card-img-4");
+    const cardImage5 = document.querySelector(".card-img-5");
+    const cardImage6 = document.querySelector(".card-img-6");
 
-    // cardImage0.addEventListener("click", function()){
+    cardImage0.addEventListener("click", function(){
+        let text= "En vrai je kiff le concept mais je claque un peu du...."
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
 
-    // }
+    cardImage1.addEventListener("click", function(){
+        let text= "T'es même pas un titre Freres"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
 
+    cardImage2.addEventListener("click", function(){
+        let text= "chanmé "
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
+
+    cardImage3.addEventListener("click", function(){
+        let text= "c'est pas comme ça qu'es-ce qu'on fait"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
+    cardImage4.addEventListener("click", function(){
+        let text= "BOUM galipette regarde ce que je sais faire"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
+    cardImage5.addEventListener("click", function(){
+        let text= "Tu lui compresse sa race "
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
+    cardImage6.addEventListener("click", function(){
+        let text= "canard en plastique a votre service"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+    });
 
