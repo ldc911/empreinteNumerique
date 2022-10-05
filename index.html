@@ -20,7 +20,28 @@
     <!-- sur branche header -->
     <header>
         <div id="navButtonMobile">
-            <img src="css/decoPictures/Sans titre.png" class="button" />
+            <img src="css/decoPictures/button.png" class="button" />
+            <div id="headerNavMobile">
+                <nav>
+                    <ul>
+                        <a href="#presentation">
+                            <li>Présentation</li>
+                        </a>
+                        <a href="#carrousel">
+                            <li>Photos</li>
+                        </a>
+                        <a href="#expression">
+                            <li>Musique</li>
+                        </a>
+                        <a href="#empreinte">
+                            <li>Empreinte numérique</li>
+                        </a>
+                        <a href="#commentaires">
+                            <li>Commentaires</li>
+                        </a>
+                    </ul>
+                    <div id="close"><img src="css/decoPictures/close.png" /></div>
+            </div>
         </div>
         <div id="navButtonDesk">
             <div id="headerNavDesk">
@@ -31,42 +52,22 @@
                     <div class=" headerNavLign"></div>
                     <div class="headerNavLign"></div>
                     <div id="headerNavName">
-                        <div class="navItem"><a href="#presentation">Présentation</a></div>
+                        <div class="navItem"><a href="#presentation">Biographie</a></div>
                         <div class="navItem"><a href="#carrousel">Photos</a></div>
                         <div class="navItem"><a href="#expression">Musique</a></div>
                         <div class="navItem"><a href="#empreinte">Empreinte numérique</a></div>
                         <div class="navItem"><a href="#commentaires">Commentaires</a></div>
                     </div>
                 </div>
-                <img src="css/decoPictures/Sans titre.png" class="button" />
+                <img src="css/decoPictures/button.png" class="button" />
             </div>
         </div>
-        <div id="headerNavMobile">
-            <nav>
-                <ul>
-                    <a href="#presentation">
-                        <li>Présentation</li>
-                    </a>
-                    <a href="#carrousel">
-                        <li>Photos</li>
-                    </a>
-                    <a href="#expression">
-                        <li>Musique</li>
-                    </a>
-                    <a href="#empreinte">
-                        <li>Empreinte numérique</li>
-                    </a>
-                    <a href="#commentaires">
-                        <li>Commentaires</li>
-                    </a>
-                </ul>
 
-        </div>
 
     </header>
     <main>
         <section id="presentation">
-            <h1>Présentation</h1>
+            <h1>Biographie</h1>
             <div>
                 <div>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -95,18 +96,18 @@
             <h1>Carrousel</h1>
 
             <!--Debut carrousel responsive Charline-->
-            <div id="bodyCarrousel">
+            <!-- <div id="bodyCarrousel">
 
                 <div id="carrouselContainer">
                 </div>
                 <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselRight" />
                 <img src="css/decoPictures/fleche.png" class="boutonCarrousel" id="boutonCarrouselLeft" />
-            </div>
+            </div> -->
             <!--Fin carrousel responsive Charline-->
         </section>
         <img src="css/decoPictures/archet_stylised.png" class="archet" />
 
-        <section class="expression">
+        <section id="expression">
             <h1>Musique par Arthur</h1>
 
             <!-- lecteur de musique  -->
@@ -287,8 +288,12 @@
     </main>
     <footer>
         <p>© 2022 - Projet Un</p>
-        <a href="https://www.wildcodeschool.com/" target="_blank"><img src=" css/decoPictures/WildNetB.png" /></a>
+        <div>
+            <a href="https://www.wildcodeschool.com/" target="_blank"><img src=" css/decoPictures/WildNetB.png" /></a>
+            <img src="css/decoPictures/logo.png" />
+        </div>
         <p>Site web développé par Charline Vergoz, Laurent Duclos, Rémy Bernardin et Marie-Hermine Schneider</p>
+
     </footer>
     <script src="index.js"></script>
     <script src="comm.js"></script>
