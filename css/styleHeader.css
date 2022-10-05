@@ -1,17 +1,157 @@
-header ul {
-    list-style-type: none;
-    display: none;
+header {
+    display: flex;
+    flex-direction: column;
 }
 
+header ul {
+    list-style-type: none;
+}
 
 #headerNavMobile {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primaryColor);
     display: none;
+    padding-top: 3rem;
+}
+
+#headerNavMobile a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: .5rem;
+    font-family: var(--titleFont);
 }
 
 #headerNavDesk {
     display: none;
 }
 
+#navButtonMobile {
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    background-image: url("decoPictures/headerDesk.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#navButtonMobile img:nth-child(1) {
+    padding-top: 1rem;
+}
+
+#navButtonMobile img:nth-child(2) {
+    width: 100%;
+}
+
+#presentation {
+    padding-top: 5rem;
+}
+
 .archet {
-    display: none;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    transform: rotate(-10deg);
+}
+
+.button {
+    width: 70px;
+}
+
+@media only screen and (min-device-width : 1024px) {
+    header a {
+        text-decoration: none;
+        color: var(--secondaryColor);
+        font-family: var(--titleFont);
+        font-size: 1.5rem;
+        text-shadow: 4px 1px 2px black;
+    }
+
+    #ligns {
+        position: absolute;
+        padding: 1rem;
+        width: 77%;
+    }
+
+    #navButtonMobile {
+        display: none;
+    }
+
+    #headerNavMobile {
+        display: none;
+    }
+
+    #headerNavDesk {
+        display: block;
+    }
+
+    #navButtonDesk {
+        z-index: 1;
+        width: 100%;
+        height: 300px;
+        background-image: url("decoPictures/headerDesk.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: black;
+        background-position: bottom;
+    }
+
+    #navButtonDesk img:nth-child(1) {
+        padding-top: 1rem;
+    }
+
+    .headerNavLign {
+        width: 3rem;
+        border-bottom: 1px solid var(--secondaryColor);
+        margin: 0px;
+        margin-bottom: 7px;
+        transition-property: width;
+        transition-duration: 2s;
+    }
+
+    .headerNavLignMax {
+        width: 95%;
+    }
+
+    #headerNavName {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: -2.5rem;
+    }
+
+    #headerNavName div {
+        background-color: transparent;
+        padding-right: 1.5rem;
+    }
+
+
+    #headerNavDesk {
+        display: block;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .navItem {
+        opacity: 0;
+    }
+
+    .navItemApparition {
+        opacity: 1;
+        transition-property: opacity;
+        transition-duration: 4s;
+        text-decoration: none;
+    }
+
 }
