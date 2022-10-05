@@ -2,12 +2,12 @@ const arthurExpression = [
         {
         position : 0,
         expression : "En vrai je kiff le concept mais je claque un peu du....",
-        image : "css/calquesArthur/arthurCalque9.png",
+        image : "css/calquesArthur/arthurCalque9.retraité.png",
         },
         {
         position : 1,
         expression : "Chanmé !",
-        image : "css/calquesArthur/calqueArthur3.png",
+        image : "css/calquesArthur/calqueArthur3.retraité.png",
         },
         {
         position : 2,
@@ -17,7 +17,7 @@ const arthurExpression = [
         {
         position : 3,
         expression :"c'est pas comme ça qu'es-ce qu'on fait",
-        image : "css/calquesArthur/arthurCalque4png.png",
+        image : "css/calquesArthur/arthurCalque4.retraité.png",
         },
         {
         position : 4, 
