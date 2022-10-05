@@ -60,8 +60,8 @@ const arthurExpression = [
     const cardImage5 = document.createElement(".card-img-5");
     const cardImage6 = document.createElement(".card-img-6");
 
-    cardImage0.addEventListener("click", function()){
+    // cardImage0.addEventListener("click", function()){
 
-    }
+    // }
 
 
