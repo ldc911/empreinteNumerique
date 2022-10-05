@@ -8,7 +8,7 @@
     font-family: var(--contentFont);
 }
 
-div.expressionPlayerAudio {
+.expressionPlayerAudio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,37 +16,33 @@ div.expressionPlayerAudio {
 .expressionPlayerAudio > article{
     font-family: var(--contentFont);
 }
-div.expressionOrale{
+.expressionOrale{
     box-sizing: border-box;
     display : grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 200px);
+    gap : 20px;
 }
 
-.expressionOrale > h2{
-    grid-column-start : 2;
-    grid-column-end: 8;
-}
-article.expressionArticles1{
-    grid-column-start : 1;
-    grid-column-end: 7;
-}
-article.expressionArticles2{
-    grid-column-start : 2;
+.card-img {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+
+  .expressionTitre{
+    text-align: center;
+    align-content: center;
+    grid-column-start: 1;
     grid-column-end: 3;
-}
+  }
 
-article.expressionArticles3{
-    grid-column-start : 4;
-    grid-column-end: 7;
-}
-
-article.expressionArticles4{
-    grid-column-start : 1;
-    grid-column-end: 6;
-}
-
-article.expressionArticles5{
-    grid-column-start : 2 ;
-    grid-column-end: 6 ;
-}
+  .expressionExplication{
+    text-align: center;
+    align-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-style : italic;
+    font-weight: 100;
+  }
