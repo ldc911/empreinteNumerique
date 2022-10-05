@@ -6,7 +6,6 @@
     position: relative;
     overflow: hidden;
     margin: auto;
-    z-index: 2;
 }
 
 @media screen and (min-width: 320px) {
@@ -17,8 +16,7 @@
         box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
         overflow: hidden;
         position: relative;
-        margin: auto;
-        z-index: 2;
+        margin-right: 250px;
     }
 }
 
@@ -35,8 +33,6 @@
         height: auto;
         display: flex;
         justify-content: center;
-
-
     }
 }
 
@@ -56,12 +52,12 @@
     }
 }
 
+
 .boutonCarrousel {
     position: absolute;
     width: 40px;
     cursor: pointer;
     top: 75px;
-
 }
 
 @media screen and (min-width: 320px) {
@@ -70,7 +66,6 @@
         width: 70px;
         cursor: pointer;
         top: 150px;
-
     }
 }
 
@@ -80,7 +75,6 @@
     opacity: 0.4;
     transform: rotate(0deg);
     transition: all 0.3s ease;
-
 }
 
 #boutonCarrouselRight {
@@ -90,7 +84,8 @@
     transition: all 0.3s ease;
 }
 
-#boutonCarrouselLeft:hover {
+#boutonCarrouselLeft:hover,
+.navigationManual:hover {
     transform: rotate(0deg) scale(1.1);
     opacity: 1;
     transition: all 0.3s ease;
