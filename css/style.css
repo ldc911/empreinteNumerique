@@ -51,16 +51,11 @@ h1 {
     background-position-y: 16px;
     padding-left: 3rem;
     height: 100px;
-    color: var(--primaryColor);
     text-shadow: 1px 1px 1px gray;
 }
 
 .archet {
-    width: 350px;
-    margin: auto;
-    margin-bottom: 2rem;
-    display: block;
-    transform: rotate(-10deg);
+    display: none;
 }
 
 
@@ -151,6 +146,15 @@ h1 {
 
     .empreinteNumerique2 {
         margin-top: -4px;
+    }
+
+    .archet {
+        display: block;
+        width: 350px;
+        margin: auto;
+        margin-bottom: 2rem;
+        transform: rotate(-10deg);
+        margin-top: 3rem;
     }
 
 }

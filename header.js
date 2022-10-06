@@ -45,4 +45,7 @@ ligns.addEventListener('click', function () {
     for (let j = 0; j < navItem.length; j++) {
         navItem[j].classList.toggle("navItemApparition");
     }
+    ligns.style.transform = "rotate(360deg)";
+    ligns.style.transition = "all 1s ease";
 });
+

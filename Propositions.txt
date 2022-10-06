@@ -1,0 +1,19 @@
+Propositions de correction pour le responsive :
+TETES DE ARTHUR
+.expressionOrale {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  //gap: 30px;
+}
+
+.expressionOrale {
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+Ce qui a été fixé : 
+- menu qui tourne
+- archets descendus
+- couleur des titres en mobile (c'était noir sur noir)
+- 
