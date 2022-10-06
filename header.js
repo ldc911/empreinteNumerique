@@ -5,9 +5,9 @@ const main = document.querySelector("main");
 const close = document.querySelector("#close");
 const lien = document.querySelectorAll("li");
 
-
+//ROTATION MENU MOBILE
 menu[0].addEventListener('click', function () {
-    menu[0].style.transform = "rotate(1turn)";
+    menu[0].style.transform = "rotate(360deg)";
     menu[0].style.transition = "all 1s ease";
     main.style.filter = "blur(4px)";
     if (nav.style.display = "none") {
@@ -16,19 +16,22 @@ menu[0].addEventListener('click', function () {
 }
 );
 
+close.addEventListener('click', function () {
+    nav.style.display = "none";
+    main.style.filter = "blur(0px)";
+    menu[0].style.transform = "rotate(-360deg)";
+    menu[0].style.transition = "all 1s ease";
+})
+
 for (let i = 0; i < lien.length; i++) {
     lien[i].addEventListener('click', function () {
         nav.style.display = "none";
         main.style.filter = "blur(0px)";
+        menu[0].style.transform = "rotate(-360deg)";
+        menu[0].style.transition = "all 1s ease";
 
     })
 }
-
-close.addEventListener('click', function () {
-    nav.style.display = "none";
-    main.style.filter = "blur(0px)";
-})
-
 //APPARITION DU MENU AU FORMAT DESKTOP
 const headerNavLign = document.querySelectorAll(".headerNavLign");
 const ligns = document.querySelector("#ligns");
@@ -43,5 +46,3 @@ ligns.addEventListener('click', function () {
         navItem[j].classList.toggle("navItemApparition");
     }
 });
-
-

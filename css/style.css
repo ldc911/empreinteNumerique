@@ -43,6 +43,14 @@ h1 {
     height: 90px;
 }
 
+.archet {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    transform: rotate(-10deg);
+}
+
 #expression,
 #presentation,
 #commentaires {

@@ -55,14 +55,6 @@ header ul {
     padding-top: 5rem;
 }
 
-.archet {
-    width: 200px;
-    margin: auto;
-    margin-bottom: 2rem;
-    display: block;
-    transform: rotate(-10deg);
-}
-
 .button {
     width: 70px;
 }
