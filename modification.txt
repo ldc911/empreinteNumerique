@@ -1,4 +1,0 @@
-Modification sur le form : 
-commentary.css , ligne 28 : ajout d'un width à 90% afin que le formulaire ne dépasse pas de la fenêtre
-commentary.css, ligne 29 : ajout d'un margin:auto afin de centrer le formulaire
-commentary.css, ligne 79 : ajour d'un width à 90% pour centrer les commentaires

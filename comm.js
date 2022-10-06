@@ -4,9 +4,7 @@ const stars = document.querySelectorAll(".emptyStar");
 //on va chercher la note, l'input
 const note = document.querySelector("#note");
 //preparation du body blurr
-const bodyBlurr = document.querySelector(".bodyBlurrOff");
 
-const main = document.querySelector("main");
 
 //on boucle sur les étoies pour ajouter un event listener
 for (star of stars) {
