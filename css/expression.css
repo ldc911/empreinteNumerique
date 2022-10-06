@@ -1,15 +1,16 @@
 .expression h1 {
     font-family: var(--titleFont);
+
     color: var(--primaryColor);
 }
 
-.playerComment {
+.playerComment{
 
     font-family: var(--contentFont);
 }
 
-div.expressionPlayerAudio {
-    display: flex;
+div.expressionPlayerAudio{
+    display : flex;
     flex-direction: column;
     align-items: center;
 }
