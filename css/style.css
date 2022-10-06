@@ -47,7 +47,7 @@ main {
 
 h1 {
     font-family: var(--titleFont);
-    font-size: 2rem;
+    font-size: 4rem;
     background-image: url("decoPictures/violon_color.png");
     background-repeat: no-repeat;
     padding-left: 3rem;

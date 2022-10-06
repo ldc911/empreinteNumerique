@@ -101,6 +101,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     /* réduction de la taille de l'encadrement des commentaires afin de le centrer sur le formulaire */
     width: 90%;
 }
@@ -111,6 +113,8 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -260,6 +264,10 @@
         font-size: 1rem;
     }
     
+}
+
+.buttonDiv{
+    margin-left: 3rem;
 }
 
 
