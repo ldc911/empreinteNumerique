@@ -64,7 +64,7 @@
   }
 }
 
-  .card-img-0 {
+  .expressionOraleImage0 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +72,7 @@
     width: 100%;
   }
 
-  .card-img-1 {
+  .expressionOraleImage1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,7 +80,7 @@
     width: 100%; */
   }
 
-  .card-img-2 {
+  .expressionOraleImage2 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,7 +88,7 @@
     width: 100%;
   }
 
-  .card-img-3 {
+  .expressionOraleImage3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,14 +96,14 @@
     width: 100%;
   }
 
-  .card-img-4 {
+  .expressionOraleImage4 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
   }
 
-  .card-img-5 {
+  .expressionOraleImage5 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -111,7 +111,7 @@
     width: 100%;
   }
 
-  .card-img-6 {
+  .expressionOraleImage6 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@
   }
 
   @media screen and (min-width: 320px){
-    .card-img-6{
+    .expressionOraleImage6{
       grid-column-start: 1;
       grid-column-end: 4;
     }
