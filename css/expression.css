@@ -1,8 +1,8 @@
-.expression h2 {
-    font-family: var(--titeFont);
-    color: var(--primaryColor);
-}
+.expression > h1{
+  display : flex;
+  justify-content: center;
 
+}
 .playerComment {
 
     font-family: var(--contentFont);
@@ -23,13 +23,46 @@
     gap : 30px;
 }
 
-.card-img {
-    border-radius: 10px 10px 0 0;
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width: 100%;
+@media screen and (min-width: 320px){
+  .expressionOrale{
+    grid-template-columns: repeat(3, 200px);
   }
+}
+
+.expressionTitre{
+  font-family: var(--titeFont);
+  text-align: center;
+  align-content: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-family:var(--titleFont);
+  
+}
+
+@media screen and (min-width: 320px){
+  .expressionTitre{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+
+.expressionTitreExplication{
+  text-align: center;
+  align-content: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-style : italic;
+  font-weight: 100;
+  font-size: small;
+
+}
+
+@media screen and (min-width: 320px){
+  .expressionExplication{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
 
   .card-img-0 {
     background-size: contain;
@@ -84,20 +117,14 @@
     background-position: center;
     height: 200px;
     width: 100%;
-  }
-
-  .expressionTitre{
-    text-align: center;
-    align-content: center;
     grid-column-start: 1;
     grid-column-end: 3;
   }
 
-  .expressionExplication{
-    text-align: center;
-    align-content: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-style : italic;
-    font-weight: 100;
+  @media screen and (min-width: 320px){
+    .card-img-6{
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
   }
+

@@ -1,37 +1,30 @@
 const arthurExpression = [
         {
         position : 0,
-        expression : "En vrai je kiff le concept mais je claque un peu du....",
         image : "css/calquesArthur/arthurCalque9.retraité.png",
         },
         {
         position : 1,
-        expression : "Chanmé !",
         image : "css/calquesArthur/calqueArthur3.retraité.png",
         },
         {
         position : 2,
-        expression : "T'es même pas un titre Freres",
         image : "css/calquesArthur/arthurCalque2.png",
         },
         {
         position : 3,
-        expression :"c'est pas comme ça qu'es-ce qu'on fait",
         image : "css/calquesArthur/arthurCalque4.retraité.png",
         },
         {
         position : 4, 
-        expression : "BOUM galipette regarde ce que je sais faire",
         image : "css/calquesArthur/arthurCalque5.retraité.png",
         },
         {
         position : 5,
-        expression :"Tu lui compresse sa race",
         image : "css/calquesArthur/arthurCalque6Retraité.png",
         },
         {
         position : 6,
-        expression : "canard en plastique a votre service",
         image : "css/calquesArthur/arhurCalque10.retraité.png",
         },
     ];
