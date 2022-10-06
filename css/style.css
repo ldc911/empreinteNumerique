@@ -48,9 +48,9 @@ h1 {
     font-size: 4rem;
     background-image: url("decoPictures/violon_color.png");
     background-repeat: no-repeat;
+    background-position-y: 16px;
     padding-left: 3rem;
-    padding-top: 6px;
-    height: 90px;
+    height: 100px;
     color: var(--primaryColor);
     text-shadow: 1px 1px 1px gray;
 }
