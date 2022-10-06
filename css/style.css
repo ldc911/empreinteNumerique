@@ -1,17 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine");
+
 :root {
 
     --primaryColor: rgb(43, 43, 43);
 
     --secondaryColor: #fffaed;
 
-    --titleFont: Apple Chancery, Cursive;
+    --titleFont: "Tangerine";
 
     --contentFont: Verdana, Optima, sans-serif;
 
 }
 
 body {
+    margin: 0;
+    background-color: var(--secondaryColor);
+}
 
+section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+section:nth-child(2n+2) {
+    background-color: var(--primaryColor);
+}
+
+
+section p {
+    width: 90%;
     background-image: url("decoPictures/bg.jpg");
     display: grid;
     grid-template-rows: 200Px auto 150px;
@@ -29,37 +47,111 @@ main {
 
 h1 {
     font-family: var(--titleFont);
-}
-
-section {
-    width: 80%;
-    margin: auto;
-
-}
-
-section p {
     font-size: 2rem;
-
+    background-image: url("decoPictures/violon_color.png");
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+    padding-top: 6px;
+    height: 90px;
+    color: var(--primaryColor);
+    text-shadow: 1px 1px 1px gray;
 }
-
 
 .archet {
-    width: 300px;
-    margin: 1rem;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    transform: rotate(-10deg);
+}
+
+
+#expression,
+#presentation,
+#commentaires {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+#carrousel,
+#empreinte {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
 
 }
 
-@media screen and (min-width:769px) {
+@media only screen and (min-device-width : 1024px) {
     body {
+        background-image: url("decoPictures/bg.jpg");
+        display: grid;
+        grid-template-rows: 260px auto 150px;
+        font-family: var(--contentFont);
         width: 80%;
         margin: auto;
     }
 
-    section p {
-        font-size: 1rem;
+
+    main {
+        background-color: var(--secondaryColor);
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
     }
+
+    section {
+        width: 80%;
+        margin: auto;
+        background-color: var(--secondaryColor);
+        color: var(--secondaryColor);
+    }
+
+    #expression,
+    #presentation,
+    #commentaires,
+    #carrousel,
+    #empreinte {
+        background-color: var(--secondaryColor);
+        color: var(--primaryColor);
+
 
     #presentation div {
         display: flex;
     }
+
+    #presentation p {
+        margin-right: 50px;
+        letter-spacing: 0.2px;
+        font-size: 1rem;
+    }
+
+    span {
+        padding-left: 20px;
+    }
+
+    #titleArticleArthur,
+    .titleArticleEmpreinte {
+        text-decoration: underline;
+    }
+
+    #empreinte div {
+        letter-spacing: 0.2px;
+    }
+
+    .empreinteNumerique {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .empreinteNumerique div {
+        width: 50%;
+    }
+
+    .empreinteNumerique1 {
+        margin-right: 50px;
+    }
+
+    .empreinteNumerique2 {
+        margin-top: -4px;
+    }
+
 }
