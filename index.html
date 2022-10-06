@@ -13,16 +13,17 @@
     <link rel="stylesheet" href="css/styleFooter.css" />
 
     <!--Style CSS carrousel responsive Charline-->
-    <title>Document</title>
+    <title>Arthur HTBK</title>
 </head>
 
 <body>
 
     <!-- sur branche header -->
     <header>
-        <div id="fixed">
+        <div id="navButtonMobile">
+            <img src="css/decoPictures/button.png" class="button" />
             <div id="headerNavMobile">
-                <nav class="disparu">
+                <nav>
                     <ul>
                         <a href="#presentation">
                             <li>Présentation</li>
@@ -40,25 +41,30 @@
                             <li>Commentaires</li>
                         </a>
                     </ul>
-                </nav>
+                    <div id="close"><img src="css/decoPictures/close.png" /></div>
             </div>
-
-            <div id="headerNavDesk">
-                <div id="headerNavName">
-                    <div class="navItem"><a href="#presentation">Présentation</a></div>
-                    <div class="navItem"><a href="#carrousel">Photos</a></div>
-                    <div class="navItem"><a href="#expression">Musique</a></div>
-                    <div class="navItem"><a href="#empreinte">Empreinte numérique</a></div>
-                    <div class="navItem"><a href="#commentaires">Commentaires</a></div>
-                </div>
-                <div class=" headerNavLign"></div>
-                <div class="headerNavLign"></div>
-                <div class="headerNavLign" id="clef"></div>
-                <div class=" headerNavLign"></div>
-                <div class="headerNavLign"></div>
-            </div>
-            </nav>
         </div>
+        <div id="navButtonDesk">
+            <div id="headerNavDesk">
+                <div id="ligns">
+                    <div class=" headerNavLign"></div>
+                    <div class="headerNavLign"></div>
+                    <div class="headerNavLign" id="clef"></div>
+                    <div class=" headerNavLign"></div>
+                    <div class="headerNavLign"></div>
+                    <div id="headerNavName">
+                        <div class="navItem"><a href="#presentation">Biographie</a></div>
+                        <div class="navItem"><a href="#carrousel">Photos</a></div>
+                        <div class="navItem"><a href="#expression">Musique</a></div>
+                        <div class="navItem"><a href="#empreinte">Empreinte numérique</a></div>
+                        <div class="navItem"><a href="#commentaires">Commentaires</a></div>
+                    </div>
+                </div>
+                <img src="css/decoPictures/button.png" class="button" />
+            </div>
+        </div>
+
+
     </header>
     <main>
         <section id="presentation">
@@ -104,7 +110,7 @@
                 </div>
             </div>
         </section>
-        <img src="css/decoPictures/archet_stylised.png" class="archet" />
+        <img src="css/decoPictures/archet_couleur.svg" class="archet" />
         <section id="carrousel">
             <h1>Arthur en images</h1>
 
@@ -121,7 +127,6 @@
 
         </section>
         <img src="css/decoPictures/archet_stylised.png" class="archet" />
-
         <section class="expression">
             <h1>Musique par Arthur</h1>
 
@@ -284,7 +289,7 @@
 
             </div>
         </section>
-        <img src="css/decoPictures/archet_stylised.png" class="archet" />
+        <img src="css/decoPictures/archet_couleur.svg" class="archet" />
 
 
         <!--Début formulaire laurent-->
@@ -404,16 +409,21 @@
                     <div class="closeButton" id="closeMailList">Close</div>
                 </div>
             </div>
-
         </section>
         <!--Fin section commentaire laurent-->
         <img src="css/decoPictures/violon.png" class="archet" />
 
     </main>
     <footer>
-        <p>© 2022 - Projet Un</p>
-        <a href="https://www.wildcodeschool.com/" target="_blank"><img src=" css/decoPictures/WildNetB.png" /></a>
-        <p>Site web développé par Charline Vergoz, Laurent Duclos, Rémy Bernardin et Marie-Hermine Schneider</p>
+        <div> <img src="css/decoPictures/logo.svg" />
+        </div>
+        <div>
+            <p>© 2022 - Projet Un</p>
+            <a href="https://www.wildcodeschool.com/" target="_blank"><img src=" css/decoPictures/WildNetB.png" /></a>
+            <p>Site web développé par Charline Vergoz, Laurent Duclos, Rémy Bernardin et Marie-Hermine Schneider</p>
+        </div>
+
+
     </footer>
     <script src="index.js"></script>
     <script src="comm.js"></script>

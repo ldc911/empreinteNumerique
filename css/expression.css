@@ -1,6 +1,6 @@
+.expression h1 {
+    font-family: var(--titleFont);
 
- .expression  h2 {
-    font-family: var(--titeFont) ;
     color: var(--primaryColor);
 }
 
@@ -13,4 +13,45 @@ div.expressionPlayerAudio{
     display : flex;
     flex-direction: column;
     align-items: center;
+}
+
+.expressionPlayerAudio>article {
+    font-family: var(--contentFont);
+}
+
+div.expressionOrale {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.expressionOrale>h1 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+article.expressionArticles1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+article.expressionArticles2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+article.expressionArticles3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+article.expressionArticles4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+article.expressionArticles5 {
+    grid-column-start: 2;
+    grid-column-end: 6;
 }

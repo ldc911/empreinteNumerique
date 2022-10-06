@@ -13,7 +13,23 @@
 }
 
 body {
+    margin: 0;
+    background-color: var(--secondaryColor);
+}
 
+section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+section:nth-child(2n+2) {
+    background-color: var(--primaryColor);
+}
+
+
+section p {
+    width: 90%;
     background-image: url("decoPictures/bg.jpg");
     display: grid;
     grid-template-rows: 200Px auto 150px;
@@ -31,48 +47,82 @@ main {
 
 h1 {
     font-family: var(--titleFont);
+    font-size: 2rem;
+    background-image: url("decoPictures/violon_color.png");
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+    padding-top: 6px;
+    height: 90px;
     color: var(--primaryColor);
-    font-size: 3rem;
     text-shadow: 1px 1px 1px gray;
 }
 
-section {
-    width: 80%;
-    margin: auto;
-
-}
-
-section p {
-    font-size: 1rem;
-
-}
-
-
 .archet {
-    width: 300px;
-    margin: 1rem;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    transform: rotate(-10deg);
+}
+
+
+#expression,
+#presentation,
+#commentaires {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+#carrousel,
+#empreinte {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
 
 }
 
-@media screen and (min-width:769px) {
+@media only screen and (min-device-width : 1024px) {
     body {
+        background-image: url("decoPictures/bg.jpg");
+        display: grid;
+        grid-template-rows: 260px auto 150px;
+        font-family: var(--contentFont);
         width: 80%;
         margin: auto;
     }
 
 
+    main {
+        background-color: var(--secondaryColor);
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+        background-color: var(--secondaryColor);
+        color: var(--secondaryColor);
+    }
+
+    #expression,
+    #presentation,
+    #commentaires,
+    #carrousel,
+    #empreinte {
+        background-color: var(--secondaryColor);
+        color: var(--primaryColor);
+
+
     #presentation div {
         display: flex;
-
     }
 
     #presentation p {
-
         margin-right: 50px;
         letter-spacing: 0.2px;
         font-size: 1rem;
     }
-
 
     span {
         padding-left: 20px;
@@ -83,26 +133,13 @@ section p {
         text-decoration: underline;
     }
 
-    @media screen and (max-width: 769px) {
-
-        #titleArticleArthur,
-        .titleArticleEmpreinte {
-            text-decoration: underline;
-        }
-    }
-
     #empreinte div {
         letter-spacing: 0.2px;
-    }
-
-    ul li {
-        list-style-type: "➺ ";
     }
 
     .empreinteNumerique {
         display: flex;
         margin-bottom: 40px;
-
     }
 
     .empreinteNumerique div {
