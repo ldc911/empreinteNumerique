@@ -142,7 +142,7 @@ const userForm = document.querySelector(".formContainers").addEventListener("sub
     const userCommentA = userComment.value;
 
     createCommentBox(formTitleA, noteA, userCommentA, userNameA, userMailA);
-    createMailList(userMailA);
+    createMailList(userMailA, userNameA);
     resetStars();
     resetChamps();
     popUp();
@@ -156,10 +156,10 @@ const closeButton = document.querySelector(".closeButton").addEventListener("cli
 
 //fonction d'ajout dans la liste de capture des emails
 const mailList = document.querySelector("#mailList");
-function createMailList(mail) {
+function createMailList(mail, name) {
     const liMailList = document.createElement("li");
     liMailList.classList.add("mailList");
-    liMailList.textContent = mail;
+    liMailList.textContent = `${name} : ${mail}`;
     mailList.appendChild(liMailList);
 }
 
