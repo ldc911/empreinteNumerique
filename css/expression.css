@@ -17,6 +17,13 @@ div.expressionPlayerAudio {
   font-family: var(--contentFont);
 }
 
+.containerExpressionOrale{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
 .expressionOrale {
   box-sizing: border-box;
   gap: 30px;
@@ -24,6 +31,7 @@ div.expressionPlayerAudio {
 
 
 .expressionTitre {
+  font-size: 2.5rem;
   color: black;
   text-align: center;
   align-content: center;
@@ -45,7 +53,8 @@ div.expressionPlayerAudio {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 100%;
+  width: 50%;
+  min-width: 50px;
 }
 
 .expressionOraleImage1 {
@@ -59,7 +68,7 @@ div.expressionPlayerAudio {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 100%;
+  width: 50%;
 }
 
 .expressionOraleImage3 {

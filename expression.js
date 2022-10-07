@@ -1,39 +1,39 @@
 const arthurExpression = [
         {
         position : 0,
-        image : "css/calquesArthur/arthurCalque9.retraité.png",
+        image : "css/calquesArthur/Sanstitre.png",
         },
         {
         position : 1,
-        image : "css/calquesArthur/calqueArthur3.retraité.png",
+        image : "css/calquesArthur/Sanstitre.png",
         },
         {
         position : 2,
-        image : "css/calquesArthur/arthurCalque2.png",
+        image : "css/calquesArthur/Sanstitre3.png",
         },
         {
         position : 3,
-        image : "css/calquesArthur/arthurCalque4.retraité.png",
+        image : "css/calquesArthur/Sanstitre4.png",
         },
         {
         position : 4, 
-        image : "css/calquesArthur/arthurCalque5.retraité.png",
+        image : "css/calquesArthur/Sanstitre5.png",
         },
         {
         position : 5,
-        image : "css/calquesArthur/arthurCalque6Retraité.png",
+        image : "css/calquesArthur/Sanstitre6.png",
         },
         {
         position : 6,
-        image : "css/calquesArthur/arhurCalque10.retraité.png",
+        image : "css/calquesArthur/Sanstitre7.png",
         },
         {
             position : 7,
-            image : "css/calquesArthur/arhurCalque10.retraité.png",
+            image : "css/calquesArthur/Sans titre8.png",
         },
         {
             position : 8,
-            image : "css/calquesArthur/arhurCalque10.retraité.png",
+            image : "css/calquesArthur/Sans titre9.png",
         },
     ];
     
