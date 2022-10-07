@@ -74,11 +74,12 @@ nav #close {
         font-family: var(--titleFont);
         font-size: 3rem;
         text-shadow: 4px 1px 2px black;
+        display: none;
     }
 
     #ligns {
         position: absolute;
-        width: 73%;
+        width: 74%;
         padding-top: 1rem;
         padding-left: 4.18rem;
     }

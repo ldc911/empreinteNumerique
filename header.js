@@ -35,17 +35,26 @@ for (let i = 0; i < lien.length; i++) {
 const headerNavLign = document.querySelectorAll(".headerNavLign");
 const ligns = document.querySelector("#ligns");
 const navItem = document.querySelectorAll(".navItem");
+const liens = document.querySelectorAll('a');
+const navButtonDesk = document.querySelector("#navButtonDesk");
 
 
 
-ligns.addEventListener('click', function () {
+menu[1].addEventListener('click', function () {
     for (let i = 0; i < headerNavLign.length; i++) {
         headerNavLign[i].classList.toggle("headerNavLignMax");
     }
     for (let j = 0; j < navItem.length; j++) {
         navItem[j].classList.toggle("navItemApparition");
     }
+    for (let k = 0; k < liens.length; k++) {
+        liens[k].style.display = "inline-block";
+    }
     menu[1].style.transform = "rotate(360deg)";
     menu[1].style.transition = "all 1s ease";
 });
 
+navButtonDesk.addEventListener('scroll', function () {
+    menu[1].style.transform = "rotate(-360deg)";
+    menu[1].style.transition = "all 1s ease";
+});
