@@ -19,51 +19,25 @@ div.expressionPlayerAudio {
 
 .expressionOrale {
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(2, 200px);
   gap: 30px;
 }
 
-@media screen and (min-width: 320px) {
-  .expressionOrale {
-    grid-template-columns: repeat(3, 200px);
-  }
-}
 
 .expressionTitre {
-  font-family: var(--titeFont);
   color: black;
   text-align: center;
   align-content: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
   font-family: var(--titleFont);
 
-}
-
-@media screen and (min-width: 320px) {
-  .expressionTitre {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
 }
 
 .expressionTitreExplication {
   text-align: center;
   align-content: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
   font-style: italic;
   font-weight: 100;
   font-size: small;
 
-}
-
-@media screen and (min-width: 320px) {
-  .expressionExplication {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
 }
 
 .expressionOraleImage0 {
@@ -78,8 +52,6 @@ div.expressionPlayerAudio {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 200px;
-    width: 100%; */
 }
 
 .expressionOraleImage2 {
@@ -119,43 +91,22 @@ div.expressionPlayerAudio {
   background-position: center;
   height: 200px;
   width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 
-@media screen and (min-width: 320px) {
-  .expressionOraleImage6 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
+.expressionOraleImage7 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
 }
 
-.expressionOrale>h1 {
-  grid-column-start: 1;
-  grid-column-end: 8;
+.expressionOraleImage8 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
 }
 
-article.expressionArticles1 {
-  grid-column-start: 1;
-  grid-column-end: 7;
-}
 
-article.expressionArticles2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-article.expressionArticles3 {
-  grid-column-start: 4;
-  grid-column-end: 7;
-}
-
-article.expressionArticles4 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-}
-
-article.expressionArticles5 {
-  grid-column-start: 2;
-  grid-column-end: 6;
-}

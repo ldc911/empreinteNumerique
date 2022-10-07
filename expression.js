@@ -27,6 +27,14 @@ const arthurExpression = [
         position : 6,
         image : "css/calquesArthur/arhurCalque10.retraité.png",
         },
+        {
+            position : 7,
+            image : "css/calquesArthur/arhurCalque10.retraité.png",
+        },
+        {
+            position : 8,
+            image : "css/calquesArthur/arhurCalque10.retraité.png",
+        },
     ];
     
     const divExpressionOrale = document.querySelector(".expressionOrale")
@@ -52,57 +60,97 @@ const arthurExpression = [
     const cardImage4 = document.querySelector(".expressionOraleImage4");
     const cardImage5 = document.querySelector(".expressionOraleImage5");
     const cardImage6 = document.querySelector(".expressionOraleImage6");
+    const cardImage7 = document.querySelector(".expressionOraleImage7");
+    const cardImage8 = document.querySelector(".expressionOraleImage8");
+
+    let expressionRotateReset = 0;
 
     cardImage0.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "En vrai je kiff le concept mais je claque un peu du...."
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage0.style.transform = "rotate(360deg)"
+        cardImage0.style.transform = `rotate(${expressionRotateReset}deg)`;
         cardImage0.style.transition  = "all 1s ease"
     });
 
+
     cardImage1.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "T'es même pas un titre Freres"
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage1.style.transform = "rotate(360deg)"
-        cardImage1.style.transition  = "all 1s ease"
+        cardImage1.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage1.style.transition  = "all 1s ease";
     });
 
+
     cardImage2.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "champs mais "
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage2.style.transform = "rotate(360deg)"
-        cardImage2.style.transition  = "all 1s ease"
+        cardImage2.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage2.style.transition  = "all 1s ease";
     });
 
+
     cardImage3.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "c'est pas comme ça qu'esse qu'on fait"
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage3.style.transform = "rotate(360deg)"
-        cardImage3.style.transition  = "all 1s ease"
+        cardImage3.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage3.style.transition  = "all 1s ease";
     });
+
     cardImage4.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "BOUM galipette regarde ce que je sais faire"
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage4.style.transform = "rotate(360deg)"
-        cardImage4.style.transition  = "all 1s ease"
+        cardImage4.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage4.style.transition  = "all 1s ease";
     });
+
+
     cardImage5.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "Tu lui compresse sa race "
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage5.style.transform = "rotate(360deg)"
-        cardImage5.style.transition  = "all 1s ease"
+        cardImage5.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage5.style.transition  = "all 1s ease";
     });
+
+
     cardImage6.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
         let text= "canard en plastique a votre service"
         let speech = new SpeechSynthesisUtterance(text);
         speechSynthesis.speak(speech);
-        cardImage6.style.transform = "rotate(360deg)"
-        cardImage6.style.transition  = "all 1s ease"
+        cardImage6.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage6.style.transition  = "all 1s ease";
     });
+
+
+    cardImage7.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
+        let text= "Un peu de silence siouplé"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+        cardImage7.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage7.style.transition  = "all 1s ease";
+    });
+
+
+    cardImage8.addEventListener("click", function(){
+        expressionRotateReset = expressionRotateReset + 360;
+        let text= "c'est tcho  rien a faire"
+        let speech = new SpeechSynthesisUtterance(text);
+        speechSynthesis.speak(speech);
+        cardImage8.style.transform = `rotate(${expressionRotateReset}deg)`;
+        cardImage8.style.transition  = "all 1s ease";
+    });
+
 
