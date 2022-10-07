@@ -67,18 +67,19 @@ nav #close {
     opacity: 0.5;
 }
 
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (min-device-width : 817px) {
     header a {
         text-decoration: none;
         color: var(--secondaryColor);
         font-family: var(--titleFont);
         font-size: 3rem;
         text-shadow: 4px 1px 2px black;
+        display: none;
     }
 
     #ligns {
         position: absolute;
-        width: 73%;
+        width: 74%;
         padding-top: 1rem;
         padding-left: 4.18rem;
     }

@@ -28,6 +28,7 @@ div.expressionPlayerAudio {
 }
 
 
+
 .expressionTitre {
   font-size: 2.5rem;
   color: black;
@@ -37,6 +38,8 @@ div.expressionPlayerAudio {
 
 }
 
+
+
 .expressionTitreExplication {
   text-align: center;
   align-content: center;
@@ -45,6 +48,7 @@ div.expressionPlayerAudio {
   font-size: small;
 
 }
+
 
 .expressionOraleImage0 {
   background-size: contain;
@@ -112,6 +116,7 @@ div.expressionPlayerAudio {
   width: 100%;
 }
 
+
 @media screen and (min-width = 817px) {
   .expressionOraleImage0 {
     background-size: contain;
@@ -156,6 +161,7 @@ div.expressionPlayerAudio {
     height: 200px;
     width: 48%;}
   
+
   .expressionOraleImage6 {
     background-size: contain;
     background-repeat: no-repeat;
