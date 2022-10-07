@@ -1,8 +1,15 @@
-allPicturesCarrousel = 17;
-const carrousel = document.querySelector('#carrousel');
+let pictures = [1, 2, 3, 6, 13, 17];
+const galerie = document.querySelector('#bodyGalerie');
 
-for (i = 1; i <= allPicturesCarrousel; i++) { // boucle for call all im .. .png in my doc
-    div = document.createElement("div");
-    div.style.backgroundImage = "url('css/arthurPictures/im" + i + ".png')";
-    container.appendChild(div);
+function apparition() {
+    for (i = 1; i < pictures.length; i++) {
+        index = pictures[i];
+        const createDiv = document.createElement("div");
+        const createImg = document.createElement("img");
+        createImg.src = `css/arthurPictures/im${index}.png`;
+        createDiv.appendChild(createImg);
+        createDiv.classList.add('galerie');
+        galerie.appendChild(createDiv);
+    }
 }
+apparition();
