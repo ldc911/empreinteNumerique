@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine");
 
+*{
+    box-sizing: border-box;
+}
+
 :root {
 
     --primaryColor: rgb(43, 43, 43);
@@ -21,6 +25,7 @@ section {
     padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    width: 100%;
 }
 
 section:nth-child(2n+2) {
