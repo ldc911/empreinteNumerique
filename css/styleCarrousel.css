@@ -1,10 +1,11 @@
 #bodyCarrousel {
-    width: 100%;
+    width: auto;
     height: auto;
     border: solid 4px var(--secondaryColor);
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
+    align-items: center;
     margin: auto;
 }
 
@@ -16,7 +17,7 @@
         box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
         overflow: hidden;
         position: relative;
-        /* margin-right: 250px; */
+        margin: auto;
     }
 }
 

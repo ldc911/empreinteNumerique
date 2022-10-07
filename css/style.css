@@ -28,20 +28,15 @@ section:nth-child(2n+2) {
 }
 
 
-section p {
-    width: 90%;
-    display: grid;
-    font-family: var(--contentFont);
-    width: 80%;
-}
-
 main {
+
     background-color: var(--secondaryColor);
     background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 h1 {
     font-family: var(--titleFont);
