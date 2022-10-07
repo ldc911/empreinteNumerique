@@ -5,7 +5,7 @@ const arthurExpression = [
         },
         {
         position : 1,
-        image : "css/calquesArthur/Sanstitre.png",
+        image : "css/calquesArthur/Sanstitre2.png",
         },
         {
         position : 2,

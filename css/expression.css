@@ -17,16 +17,14 @@ div.expressionPlayerAudio {
   font-family: var(--contentFont);
 }
 
-.containerExpressionOrale{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 
-}
 .expressionOrale {
   box-sizing: border-box;
   gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 
@@ -53,7 +51,7 @@ div.expressionPlayerAudio {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 50%;
+  width: 100%;
   min-width: 50px;
 }
 
@@ -61,6 +59,7 @@ div.expressionPlayerAudio {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
 }
 
 .expressionOraleImage2 {
@@ -68,39 +67,34 @@ div.expressionPlayerAudio {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 50%;
-}
+  width: 100%;}
 
 .expressionOraleImage3 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 100%;
-}
+  width: 100%;}
 
 .expressionOraleImage4 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-}
+  width: 100%;}
 
 .expressionOraleImage5 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 100%;
-}
+  width: 100%;}
 
 .expressionOraleImage6 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  width: 100%;
-}
+  width: 100%;}
 
 .expressionOraleImage7 {
   background-size: contain;
@@ -116,6 +110,75 @@ div.expressionPlayerAudio {
   background-position: center;
   height: 200px;
   width: 100%;
+}
+
+@media screen and (min-width = 817px) {
+  .expressionOraleImage0 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;
+    min-width: 50px;
+  }
+  
+  .expressionOraleImage1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48%;
+  }
+  
+  .expressionOraleImage2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;}
+  
+  .expressionOraleImage3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;}
+  
+  .expressionOraleImage4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48%;}
+  
+  .expressionOraleImage5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;}
+  
+  .expressionOraleImage6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;}
+  
+  .expressionOraleImage7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 48%;
+  }
+  
+  .expressionOraleImage8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+  
 }
 
 
