@@ -8,9 +8,9 @@
     margin: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 817px) {
     #bodyCarrousel {
-        width: 800px;
+        max-width: 800px;
         height: auto;
         border: solid 4px var(--secondaryColor);
         box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
@@ -27,7 +27,7 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 817px) {
     #carrouselContainer {
         width: 100%;
         height: auto;
@@ -43,10 +43,10 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 817px) {
     .arthurPicturesCarrousel {
-        width: 800px;
-        height: 400px;
+        max-width: 800px;
+        min-height: 400px;
         display: inline-block;
         background-size: cover;
     }
@@ -60,7 +60,7 @@
     top: 75px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 817px) {
     .boutonCarrousel {
         position: absolute;
         width: 70px;

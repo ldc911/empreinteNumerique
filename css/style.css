@@ -27,14 +27,6 @@ section:nth-child(2n+2) {
     background-color: var(--primaryColor);
 }
 
-
-section p {
-    width: 90%;
-    display: grid;
-    font-family: var(--contentFont);
-    width: 80%;
-}
-
 main {
     background-color: var(--secondaryColor);
     background-size: contain;
@@ -73,7 +65,7 @@ h1 {
 
 }
 
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (min-device-width : 817px) {
     body {
         background-image: url("decoPictures/bg.jpg");
         display: grid;
