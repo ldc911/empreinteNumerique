@@ -29,13 +29,13 @@ for (let i = 0; i < lien.length; i++) {
         main.style.filter = "blur(0px)";
         menu[0].style.transform = "rotate(-360deg)";
         menu[0].style.transition = "all 1s ease";
-
     })
 }
 //APPARITION DU MENU AU FORMAT DESKTOP
 const headerNavLign = document.querySelectorAll(".headerNavLign");
 const ligns = document.querySelector("#ligns");
 const navItem = document.querySelectorAll(".navItem");
+
 
 
 ligns.addEventListener('click', function () {
@@ -45,7 +45,7 @@ ligns.addEventListener('click', function () {
     for (let j = 0; j < navItem.length; j++) {
         navItem[j].classList.toggle("navItemApparition");
     }
-    ligns.style.transform = "rotate(360deg)";
-    ligns.style.transition = "all 1s ease";
+    menu[1].style.transform = "rotate(360deg)";
+    menu[1].style.transition = "all 1s ease";
 });
 

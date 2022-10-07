@@ -8,8 +8,12 @@ TETES DE ARTHUR
 }
 
 .expressionOrale {
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
+    enlever le grid : ça les mets les unes à la suite des autres
+}
+
+CAROUSEL
+bodyCarousel {
+   // margin-right: 250px;
 }
 
 Ce qui a été fixé : 
@@ -17,3 +21,9 @@ Ce qui a été fixé :
 - archets descendus
 - couleur des titres en mobile (c'était noir sur noir)
 - 
+
+
+TO DO LIST : 
+DONE - menu qui tourne 
+DONE - archets descendus
+DONE - favicon
