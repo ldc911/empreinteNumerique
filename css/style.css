@@ -27,15 +27,7 @@ section:nth-child(2n+2) {
     background-color: var(--primaryColor);
 }
 
-
-section p {
-    width: 90%;
-    display: grid;
-    font-family: var(--contentFont);
-    width: 80%;
-}
-
-main {
+j main {
     background-color: var(--secondaryColor);
     background-size: contain;
     display: flex;
