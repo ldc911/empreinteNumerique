@@ -67,7 +67,7 @@ nav #close {
     opacity: 0.5;
 }
 
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (min-device-width : 817px) {
     header a {
         text-decoration: none;
         color: var(--secondaryColor);
