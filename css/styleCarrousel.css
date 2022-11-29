@@ -1,40 +1,25 @@
 #bodyCarrousel {
-    width: auto;
+    width: 100%;
     height: auto;
     border: solid 4px var(--secondaryColor);
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
-    position: relative;
+    position: absolute;
     overflow: hidden;
-    align-items: center;
     margin: auto;
-    display: none
+    background-size: contain;
+
 }
 
-#bodyGalerie {
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width:817px) {
+@media screen and (min-width: 320px) {
     #bodyCarrousel {
-        display: block;
-    }
-
-    #bodyGalerie {
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 817px) {
-    #bodyCarrousel {
-        max-width: 800px;
+        width: 800px;
         height: auto;
         border: solid 4px var(--secondaryColor);
         box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
         overflow: hidden;
         position: relative;
-        margin: auto;
+        margin-right: 250px;
+
     }
 }
 
@@ -43,9 +28,10 @@
     height: auto;
     display: flex;
     justify-content: center;
+
 }
 
-@media screen and (min-width: 817px) {
+@media screen and (min-width: 320px) {
     #carrouselContainer {
         width: 100%;
         height: auto;
@@ -61,10 +47,10 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 817px) {
+@media screen and (min-width: 320px) {
     .arthurPicturesCarrousel {
-        max-width: 800px;
-        min-height: 400px;
+        width: 800px;
+        height: 400px;
         display: inline-block;
         background-size: cover;
     }
@@ -78,7 +64,7 @@
     top: 75px;
 }
 
-@media screen and (min-width: 817px) {
+@media screen and (min-width: 320px) {
     .boutonCarrousel {
         position: absolute;
         width: 70px;
@@ -86,6 +72,7 @@
         top: 150px;
     }
 }
+
 
 #boutonCarrouselLeft {
     left: 0;
@@ -112,9 +99,4 @@
     transform: rotate(180deg) scale(1.1);
     opacity: 1;
     transition: all 0.3s ease;
-}
-
-.galerie img {
-    max-width: 100vw;
-    margin-bottom: 3rem;
 }

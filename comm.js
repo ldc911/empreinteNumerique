@@ -4,7 +4,7 @@ const stars = document.querySelectorAll(".emptyStar");
 //on va chercher la note, l'input
 const note = document.querySelector("#note");
 //preparation du body blurr
-
+const bodyBlurr = document.querySelector(".bodyBlurrOff");
 
 //on boucle sur les étoies pour ajouter un event listener
 for (star of stars) {
@@ -81,17 +81,17 @@ function createCommentBox(title, note, content, nom, mail) {
 
     const commentHeaderContentA = document.createElement("div");
     commentHeaderContentA.classList.add("commentBoxHeaderContent");
-    commentHeaderContentA.textContent = title;
+    commentHeaderContentA.innerHTML = title;
     commentHeader.appendChild(commentHeaderContentA);
 
     const commentHeaderContentB = document.createElement("div");
     commentHeaderContentB.classList.add("commentBoxHeaderContent");
-    commentHeaderContentB.textContent = `${note}/5`;
+    commentHeaderContentB.innerHTML = `${note}/5`;
     commentHeader.appendChild(commentHeaderContentB);
 
     const commentBoxContent = document.createElement("div");
     commentBoxContent.classList.add("commentBoxContent");
-    commentBoxContent.textContent = content;
+    commentBoxContent.innerHTML = content;
     commentBox.appendChild(commentBoxContent);
 
     const commentBoxFooter = document.createElement("div");
@@ -99,7 +99,7 @@ function createCommentBox(title, note, content, nom, mail) {
     commentBox.appendChild(commentBoxFooter);
 
     const footerContentA = document.createElement("div");
-    footerContentA.textContent = nom;
+    footerContentA.innerHTML = nom;
     commentBoxFooter.appendChild(footerContentA);
 }
 
@@ -118,14 +118,18 @@ function popOut() {
 //fonctions d'ouverture et de fermeture de liste de capture des emails
 function popListUp() {
     const listOut = document.querySelector("#dataList");
-    listOut.classList.add("popMail");
+    listOut.classList.add("popOut");
     listOut.classList.remove("popIn");
+    // bodyBlurr.classList.remove("bodyBlurrOff");
+    // bodyBlurr.classList.add("bodyBlurrOn");
 }
-
 function popListOut() {
     const listOut = document.querySelector("#dataList");
     listOut.classList.add("popIn");
-    listOut.classList.remove("popMail");
+    listOut.classList.remove("popOut");
+    // bodyBlurr.classList.add("bodyBlurrOff");
+    // bodyBlurr.classList.remove("bodyBlurrOn");
+
 }
 
 //déclenchement au submit de la création du bloc comm
@@ -142,7 +146,7 @@ const userForm = document.querySelector(".formContainers").addEventListener("sub
     const userCommentA = userComment.value;
 
     createCommentBox(formTitleA, noteA, userCommentA, userNameA, userMailA);
-    createMailList(userMailA, userNameA);
+    createMailList(userMailA);
     resetStars();
     resetChamps();
     popUp();
@@ -156,10 +160,10 @@ const closeButton = document.querySelector(".closeButton").addEventListener("cli
 
 //fonction d'ajout dans la liste de capture des emails
 const mailList = document.querySelector("#mailList");
-function createMailList(mail, name) {
+function createMailList(mail) {
     const liMailList = document.createElement("li");
     liMailList.classList.add("mailList");
-    liMailList.textContent = `${name} : ${mail}`;
+    liMailList.innerHTML = mail;
     mailList.appendChild(liMailList);
 }
 
